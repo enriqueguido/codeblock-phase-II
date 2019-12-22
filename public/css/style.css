@@ -326,3 +326,33 @@
   -moz-transform: translate(-5em,0);
   -webkit-transform: translate(-5em,0);
 }
+
+[data-dark-overlay="6"]:after {
+    opacity: 0.6;
+}
+
+[data-dark-overlay]:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333895;
+  z-index: -1
+}
+
+.about-me-profile {
+  width: 130px !important;
+  height: 130px !important;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.profile-page .page-header .path {
+    max-width: 65%;
+    right: 0;
+    top: 100px;
+}

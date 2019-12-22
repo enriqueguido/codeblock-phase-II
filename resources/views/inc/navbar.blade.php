@@ -29,7 +29,7 @@
       </div>
       <ul class="navbar-nav ml-auto">
         <li class="dropdown nav-item">
-          <a href="#" class="nav-link">
+          <a href="/" class="nav-link">
             <!-- <i class="fa tim-icons icon-components d-lg-none d-xl-none"></i> Home -->
             <i class="fa tim-icons icon-components"></i> Home
           </a>
@@ -71,7 +71,7 @@
             <p>Info</p>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="./examples/about-us.html">
+            <a class="dropdown-item" href="pages/about-me">
               <i class="tim-icons icon-bulb-63"></i> About Me
             </a>
             <a class="dropdown-item" href="./examples/blog-post.html">
