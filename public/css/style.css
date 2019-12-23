@@ -352,7 +352,28 @@
 }
 
 .profile-page .page-header .path {
-    max-width: 65%;
-    right: 0;
-    top: 100px;
+  max-width: 65%;
+  right: 0;
+  top: 100px;
+}
+
+.about-me-path {
+  max-width: 65%;
+  right: 0;
+  top: 100px;
+}
+
+.profile-name-align {
+  position: absolute;
+  top: 110px;
+  left: 60px;
+}
+
+.about-me-path2 {
+  right: auto;
+  left: 50px;
+  max-width: 45%;
+  top: 60px;
+  position: absolute;
+  opacity: 0.02;
 }
