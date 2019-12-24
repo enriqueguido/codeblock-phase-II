@@ -40,16 +40,20 @@
         <div class="col-lg-6 col-md-6">
           <h1 class="profile-title text-left profile-name-align">Who I am</h1>
           <h5 class="text-on-back">01</h5>
-          <p class="profile-description">A tech lover at heart with an analylitcal mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals.</p>
+          <p class="profile-description">I was born in Buenos Aires, Argentina and currently residing in Tamarac, FLorida. A tech lover at heart with an analylitcal mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals. Professional and industry knowledgable.
+          I am dedicated and committed to perfecting my craft, ambitious, driven, and results oriented. I love problem solving and finding fixes with technology.</p>
           <div class="btn-wrapper profile pt-3">
-            <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow us">
+            <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
               <i class="fab fa-twitter"></i>
             </a>
-            <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-facebook btn-round" data-toggle="tooltip" data-original-title="Like us">
-              <i class="fab fa-facebook-square"></i>
+            <a target="_blank" href="https://www.instagram.com/code_monkey01/" class="btn btn-icon btn-instagram btn-round" data-toggle="tooltip" data-original-title="Follow me on Instagram">
+              <i class="fab fa-instagram"></i>
             </a>
-            <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-dribbble  btn-round" data-toggle="tooltip" data-original-title="Follow us">
-              <i class="fab fa-dribbble"></i>
+            <a target="_blank" href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-linkedin  btn-round" data-toggle="tooltip" data-original-title="Follow me on LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a target="_blank" href="https://github.com/enriqueguido" class="btn btn-icon btn-github btn-round" data-toggle="tooltip" data-original-title="Follow me on GitHub">
+              <i class="fab fa-github"></i>
             </a>
           </div>
         </div>
@@ -62,12 +66,12 @@
             <div class="card-body">
               <ul class="nav nav-tabs nav-tabs-primary justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#linka">
+                  <a class="nav-link active about-me-nav-color" data-toggle="tab" href="#linka">
                     Full-Stack
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#linkb">
+                  <a class="nav-link about-me-nav-color" data-toggle="tab" href="#linkb">
                     PM Work
                   </a>
                 </li>
@@ -84,48 +88,48 @@
                       <thead class=" text-primary">
                         <tr>
                           <th class="header">
-                            COIN
+                            BACK-END
                           </th>
                           <th class="header">
-                            AMOUNT
+                            FRONT-END
                           </th>
                           <th class="header">
-                            VALUE
+                            DESIGN TOOLS
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>
-                            BTC
+                            Ruby/Ruby on Rails
                           </td>
                           <td>
-                            7.342
+                            HTML
                           </td>
                           <td>
-                            48,870.75 USD
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            ETH
-                          </td>
-                          <td>
-                            30.737
-                          </td>
-                          <td>
-                            64,53.30 USD
+                            Photoshop
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            XRP
+                            PHP/Laravel
                           </td>
                           <td>
-                            19.242
+                            CSS
                           </td>
                           <td>
-                            18,354.96 USD
+                            Illustrator
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            PostgreSQL
+                          </td>
+                          <td>
+                            JavaSript/JS Libraries
+                          </td>
+                          <td>
+                            Adobe Tools
                           </td>
                         </tr>
                       </tbody>
@@ -197,6 +201,10 @@
      <div class="container">
        <div class="row justify-content-between">
          <div class="col-md-6">
+           <object type="image/svg+xml" data="../img/about-me-sec-two.svg" id="" alt="Business person walking on arrow">
+               <!-- Fall back img -->
+             <img src="../img/about-me-sec-two.svg" alt="Business person walking on arrow">
+           </object>
            <!-- <div class="row justify-content-between align-items-center">
              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <ol class="carousel-indicators">
@@ -234,17 +242,17 @@
            </div> -->
          </div>
          <div class="col-md-5">
-           <h1 class="profile-name-align text-left">Projects</h1>
+           <h1 class="profile-name-align text-left">Why choose me</h1>
            <h5 class="text-on-back">02</h5>
-           <p class="profile-description text-left">An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</p>
-           <div class="btn-wrapper pt-3">
+           <p class="profile-description text-left">I have gained a diverse set of skills in both business and the IT world along with sound knowledge of several programming languages/frameworks which help me attain hands on experience developing web applications. I pride myself on having excellent communication skills helping me to work well among diverse teams and allowing me to explain complex technical concepts in layman terms briding the gap between business and IT. I have learn databased design and development along with the ability to develop graphical user interfaces. I can do custome design work for any of your projects utilizing Adobe suite tools like Photoshop and Illustrator.</p>
+           <!-- <div class="btn-wrapper pt-3">
              <button href="javascript:void(0)" class="btn btn-simple btn-primary">
                <i class="tim-icons icon-book-bookmark"></i> Bookmark
              </button>
              <button href="javascript:void(0)" class="btn btn-simple btn-info">
                <i class="tim-icons icon-bulb-63"></i> Check it!
              </button>
-           </div>
+           </div> -->
          </div>
        </div>
      </div>
