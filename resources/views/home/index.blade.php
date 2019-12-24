@@ -411,7 +411,7 @@
                     <h1 class="title">KeddyMe</h1>
                   </div>
                   <div class="col-md-4">
-                    <img class="d-block margin-img-left" src="../img/keddyme.png" alt="First slide" height="500">
+                    <img class="d-block margin-img-left" src="../img/KEDDYME Logo 2.png" alt="First slide" height="500">
                   </div>
                   <div class="col-md-4">
                     <div class="wrapper">

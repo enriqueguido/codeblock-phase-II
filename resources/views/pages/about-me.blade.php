@@ -252,15 +252,15 @@
   <!-- About me second info section end -->
 
   <!-- Experience section -->
-  <div class="projects-2 project-raised">
+  <div class="projects-2 project-raised experience-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-          <h2 class="title">Some of Our Awesome Products - 2</h2>
+          <h2 class="title">Experience</h2>
           <div class="section-space"></div>
         </div>
       </div>
-      <ul class="nav nav-pills nav-pills-primary nav-pills-icons nav-pills-lg" role="tablist">
+      <!-- <ul class="nav nav-pills nav-pills-primary nav-pills-icons nav-pills-lg" role="tablist">
         <li class="nav-item m-auto">
           <a class="nav-link active" data-toggle="tab" href="#project1" role="tablist">
             <i class="tim-icons icon-spaceship"></i> Project 1
@@ -286,14 +286,14 @@
             <i class="tim-icons icon-planet"></i> Project 5
           </a>
         </li>
-      </ul>
+      </ul> -->
       <div class="tab-content tab-space">
-        <div class="tab-pane active" id="project1">
+        <!-- <div class="tab-pane active" id="project1"> -->
           <div class="row mt-5">
             <div class="col-md-4">
               <div class="card card-blog">
                 <div class="card-image h-auto">
-                  <img class="img rounded" src="http://s3.amazonaws.com/creativetim_bucket/products/38/original/opt_mk_thumbnail.jpg?1458052306s">
+                  <img class="img rounded" src="../img/mdvip.jpg" style="height:262.5px;">
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
@@ -317,7 +317,7 @@
             <div class="col-md-4">
               <div class="card card-blog">
                 <div class="card-image h-auto">
-                  <img class="img rounded" src="https://s3.amazonaws.com/creativetim_bucket/products/93/original/opt_bd_thumbnail.jpg?1535098178">
+                  <img class="img rounded" src="../img/macneill-group.jpg" style="height:262.5px;">
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
@@ -336,7 +336,61 @@
             <div class="col-md-4">
               <div class="card card-blog">
                 <div class="card-image h-auto">
-                  <img class="img rounded" src="https://s3.amazonaws.com/creativetim_bucket/products/137/original/opt_adp_thumbnail.jpg?1544778965">
+                  <img class="img rounded" src="../img/pnc-bank.jpeg" style="height:262.5px;">
+                </div>
+                <div class="card-body text-left">
+                  <div class="card-footer mt-0">
+                    <div class="stats stats-right">
+                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
+                    </div>
+                    <div class="author">
+                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
+                      <span>Argon Dashboard Pro</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-image h-auto">
+                  <img class="img rounded" src="../img/bank-of-america.jpg" style="height:262.5px;">
+                </div>
+                <div class="card-body text-left">
+                  <div class="card-footer mt-0">
+                    <div class="stats stats-right">
+                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
+                    </div>
+                    <div class="author">
+                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
+                      <span>Argon Dashboard Pro</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-image h-auto">
+                  <img class="img rounded" src="../img/startup.jpg" style="height:262.5px;">
+                </div>
+                <div class="card-body text-left">
+                  <div class="card-footer mt-0">
+                    <div class="stats stats-right">
+                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
+                    </div>
+                    <div class="author">
+                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
+                      <span>Argon Dashboard Pro</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-image h-auto">
+                  <img class="img rounded" src="../img/coming-son.png" style="height:262.5px;">
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
@@ -352,7 +406,7 @@
               </div>
             </div>
           </div>
-        </div>
+        <!-- </div> -->
         <div class="tab-pane" id="project2">
           <div class="space-100"></div>
           <div class="col-md-8 ml-auto mr-auto text-center mt-4">
@@ -384,9 +438,9 @@
       </div>
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center mt-4">
-          <h3 class="title">Interested in our projects?</h3>
+          <h3 class="title">Interested in hiring me?</h3>
           <h4 class="description mb-5">This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.</h4>
-          <button class="btn btn-primary btn-lg">Contact us</button>
+          <button class="btn btn-primary btn-lg">Contact me</button>
         </div>
       </div>
     </div>
@@ -395,336 +449,272 @@
 
   <!-- Education section -->
   <div class="projects-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mr-auto ml-auto text-center mb-5">
-        <h2 class="title">Some of Our Awesome Projects - 1</h2>
-      </div>
-    </div>
-  </div>
-  <nav class="navbar navbar-expand-lg bg-transparent mb-5">
     <div class="container">
-      <div class="navbar-translate">
-        <p>52 projects found</p>
-      </div>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a href="javascript:;" class="nav-link dropdown-toggle" id="navbarOrder" data-toggle="dropdown" aria-expanded="false">
-            <p>A-to-Z</p>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarOrder">
-            <a class="dropdown-item" href="javascript:;">
-              Z-to-A
-            </a>
-            <a class="dropdown-item" href="javascript:;">
-              Newest
-            </a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a href="javascript:;" class="nav-link dropdown-toggle" id="navbarLatest" data-toggle="dropdown" aria-expanded="false">
-            <p>Latest</p>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarLatest">
-            <a class="dropdown-item" href="javascript:;">
-              Newest
-            </a>
-            <a class="dropdown-item" href="javascript:;">
-              High interest
-            </a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header mt-2">
-            <div class="float-left">
-              <i class="tim-icons icon-tag d-inline text-info"></i>
-              <p class="d-inline">H-23</p>
-            </div>
-            <div class="float-right">
-              <div class="dropdown">
-                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                  <i class="tim-icons icon-settings-gear-63"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                  <a class="dropdown-item" href="javascript:;">Action</a>
-                  <a class="dropdown-item" href="javascript:;">Another action</a>
-                  <a class="dropdown-item" href="javascript:;">Something else</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-center p-4">
-            <a href="javascript:;">
-              <img src="assets/img/slack.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
-            </a>
-            <h4 class="card-title mb-0">Slack</h4>
-            <p class="card-description">We are happy to work at such a great project.</p>
-            <h5 class="card-title mt-4">Members</h5>
-            <div class="avatar-group">
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                <img alt="Image placeholder" src="assets/img/james.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                <img alt="Image placeholder" src="assets/img/ryan.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                <img alt="Image placeholder" src="assets/img/lora.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                <img alt="Image placeholder" src="assets/img/mike.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header mt-2">
-            <div class="float-left">
-              <i class="tim-icons icon-tag d-inline text-success"></i>
-              <p class="d-inline">F-43</p>
-            </div>
-            <div class="float-right">
-              <div class="dropdown">
-                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                  <i class="tim-icons icon-settings-gear-63"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                  <a class="dropdown-item" href="javascript:;">Action</a>
-                  <a class="dropdown-item" href="javascript:;">Another action</a>
-                  <a class="dropdown-item" href="javascript:;">Something else</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-center p-4">
-            <a href="javascript:;">
-              <img src="assets/img/spotify.jpeg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
-            </a>
-            <h4 class="card-title mb-0">Spotify</h4>
-            <p class="card-description">We strive to embrace and drive change in our industry.</p>
-            <h5 class="card-title mt-4">Members</h5>
-            <div class="avatar-group">
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                <img alt="Image placeholder" src="assets/img/james.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                <img alt="Image placeholder" src="assets/img/ryan.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                <img alt="Image placeholder" src="assets/img/lora.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                <img alt="Image placeholder" src="assets/img/mike.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header mt-2">
-            <div class="float-left">
-              <i class="tim-icons icon-tag d-inline text-danger"></i>
-              <p class="d-inline">J-11</p>
-            </div>
-            <div class="float-right">
-              <div class="dropdown">
-                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                  <i class="tim-icons icon-settings-gear-63"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                  <a class="dropdown-item" href="javascript:;">Action</a>
-                  <a class="dropdown-item" href="javascript:;">Another action</a>
-                  <a class="dropdown-item" href="javascript:;">Something else</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-center p-4">
-            <a href="javascript:;">
-              <img src="assets/img/dribbble.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
-            </a>
-            <h4 class="card-title mb-0">Dribbble</h4>
-            <p class="card-description">The time has come to bring our plans and ideas to life.</p>
-            <h5 class="card-title mt-4">Members</h5>
-            <div class="avatar-group">
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                <img alt="Image placeholder" src="assets/img/james.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                <img alt="Image placeholder" src="assets/img/ryan.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                <img alt="Image placeholder" src="assets/img/lora.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                <img alt="Image placeholder" src="assets/img/mike.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header mt-2">
-            <div class="float-left">
-              <i class="tim-icons icon-tag d-inline text-warning"></i>
-              <p class="d-inline">A-11</p>
-            </div>
-            <div class="float-right">
-              <div class="dropdown">
-                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                  <i class="tim-icons icon-settings-gear-63"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                  <a class="dropdown-item" href="javascript:;">Action</a>
-                  <a class="dropdown-item" href="javascript:;">Another action</a>
-                  <a class="dropdown-item" href="javascript:;">Something else</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-center p-4">
-            <a href="javascript:;">
-              <img src="assets/img/Tim.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
-            </a>
-            <h4 class="card-title mb-0">CreativeTim</h4>
-            <p class="card-description">We are developing the best design projects. </p>
-            <h5 class="card-title mt-4">Members</h5>
-            <div class="avatar-group">
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                <img alt="Image placeholder" src="assets/img/james.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                <img alt="Image placeholder" src="assets/img/ryan.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                <img alt="Image placeholder" src="assets/img/lora.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                <img alt="Image placeholder" src="assets/img/mike.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header mt-2">
-            <div class="float-left">
-              <i class="tim-icons icon-tag d-inline text-primary"></i>
-              <p class="d-inline">A-11</p>
-            </div>
-            <div class="float-right">
-              <div class="dropdown">
-                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                  <i class="tim-icons icon-settings-gear-63"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                  <a class="dropdown-item" href="javascript:;">Action</a>
-                  <a class="dropdown-item" href="javascript:;">Another action</a>
-                  <a class="dropdown-item" href="javascript:;">Something else</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-center p-4">
-            <a href="javascript:;">
-              <img src="assets/img/dropbox.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
-            </a>
-            <h4 class="card-title mb-0">DropBox</h4>
-            <p class="card-description">It is important to save every project safely with our app.</p>
-            <h5 class="card-title mt-4">Members</h5>
-            <div class="avatar-group">
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                <img alt="Image placeholder" src="assets/img/james.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                <img alt="Image placeholder" src="assets/img/ryan.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                <img alt="Image placeholder" src="assets/img/lora.jpg">
-              </a>
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                <img alt="Image placeholder" src="assets/img/mike.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header mt-2">
-            <div class="float-left">
-              <i class="tim-icons icon-tag d-inline"></i>
-              <p class="d-inline">E-28</p>
-            </div>
-            <div class="float-right">
-              <div class="dropdown">
-                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                  <i class="tim-icons icon-settings-gear-63"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                  <a class="dropdown-item" href="javascript:;">Action</a>
-                  <a class="dropdown-item" href="javascript:;">Another action</a>
-                  <a class="dropdown-item" href="javascript:;">Something else</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-center p-4">
-            <a href="javascript:;">
-              <img src="assets/img/unass.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
-            </a>
-            <h4 class="card-title mb-0">Unassigned</h4>
-            <p class="card-description">Here you can add your description and bellow add your members. </p>
-            <h5 class="card-title mt-4">Members</h5>
-            <div class="avatar-group">
-              <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Add memberss">
-                <i class="tim-icons icon-lock-circle"></i>
-              </a>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-lg-8 mr-auto ml-auto text-center mb-5">
+          <h2 class="title">Some of Our Awesome Projects - 1</h2>
         </div>
       </div>
     </div>
-    <footer class="mt-5">
-      <ul class="pagination float-left">
-        <li class="page-item">
-          <a class="page-link" href="#link" aria-label="Previous">
-            <span aria-hidden="true"><i class="tim-icons icon-double-left" aria-hidden="true"></i></span>
-          </a>
-        </li>
-        <li class="page-item active">
-          <a class="page-link" href="#link">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#link">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#link">...</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#link">6</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#link" aria-label="Next">
-            <span aria-hidden="true"><i class="tim-icons icon-double-right" aria-hidden="true"></i></span>
-          </a>
-        </li>
-      </ul>
-      <div class="text-right">
-        <p>Showing 6 out of 36</p>
-        <div>
-    </footer>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header mt-2">
+              <div class="float-left">
+                <i class="tim-icons icon-tag d-inline text-info"></i>
+                <p class="d-inline">H-23</p>
+              </div>
+              <div class="float-right">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
+                    <i class="tim-icons icon-settings-gear-63"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                    <a class="dropdown-item" href="javascript:;">Action</a>
+                    <a class="dropdown-item" href="javascript:;">Another action</a>
+                    <a class="dropdown-item" href="javascript:;">Something else</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="card-body text-center p-4">
+                <a href="javascript:;">
+                  <img src="assets/img/slack.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                </a>
+                <h4 class="card-title mb-0">Slack</h4>
+                <p class="card-description">We are happy to work at such a great project.</p>
+                <h5 class="card-title mt-4">Members</h5>
+                <div class="avatar-group">
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
+                    <img alt="Image placeholder" src="assets/img/james.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
+                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
+                    <img alt="Image placeholder" src="assets/img/lora.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
+                    <img alt="Image placeholder" src="assets/img/mike.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header mt-2">
+                <div class="float-left">
+                  <i class="tim-icons icon-tag d-inline text-success"></i>
+                  <p class="d-inline">F-43</p>
+                </div>
+                <div class="float-right">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
+                      <i class="tim-icons icon-settings-gear-63"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                      <a class="dropdown-item" href="javascript:;">Action</a>
+                      <a class="dropdown-item" href="javascript:;">Another action</a>
+                      <a class="dropdown-item" href="javascript:;">Something else</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body text-center p-4">
+                <a href="javascript:;">
+                  <img src="assets/img/spotify.jpeg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                </a>
+                <h4 class="card-title mb-0">Spotify</h4>
+                <p class="card-description">We strive to embrace and drive change in our industry.</p>
+                <h5 class="card-title mt-4">Members</h5>
+                <div class="avatar-group">
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
+                    <img alt="Image placeholder" src="assets/img/james.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
+                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
+                    <img alt="Image placeholder" src="assets/img/lora.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
+                    <img alt="Image placeholder" src="assets/img/mike.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header mt-2">
+                <div class="float-left">
+                  <i class="tim-icons icon-tag d-inline text-danger"></i>
+                  <p class="d-inline">J-11</p>
+                </div>
+                <div class="float-right">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
+                      <i class="tim-icons icon-settings-gear-63"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                      <a class="dropdown-item" href="javascript:;">Action</a>
+                      <a class="dropdown-item" href="javascript:;">Another action</a>
+                      <a class="dropdown-item" href="javascript:;">Something else</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body text-center p-4">
+                <a href="javascript:;">
+                  <img src="assets/img/dribbble.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                </a>
+                <h4 class="card-title mb-0">Dribbble</h4>
+                <p class="card-description">The time has come to bring our plans and ideas to life.</p>
+                <h5 class="card-title mt-4">Members</h5>
+                <div class="avatar-group">
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
+                    <img alt="Image placeholder" src="assets/img/james.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
+                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
+                    <img alt="Image placeholder" src="assets/img/lora.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
+                    <img alt="Image placeholder" src="assets/img/mike.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header mt-2">
+                <div class="float-left">
+                  <i class="tim-icons icon-tag d-inline text-warning"></i>
+                  <p class="d-inline">A-11</p>
+                </div>
+                <div class="float-right">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
+                      <i class="tim-icons icon-settings-gear-63"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                      <a class="dropdown-item" href="javascript:;">Action</a>
+                      <a class="dropdown-item" href="javascript:;">Another action</a>
+                      <a class="dropdown-item" href="javascript:;">Something else</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body text-center p-4">
+                <a href="javascript:;">
+                  <img src="assets/img/Tim.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                </a>
+                <h4 class="card-title mb-0">CreativeTim</h4>
+                <p class="card-description">We are developing the best design projects. </p>
+                <h5 class="card-title mt-4">Members</h5>
+                <div class="avatar-group">
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
+                    <img alt="Image placeholder" src="assets/img/james.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
+                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
+                    <img alt="Image placeholder" src="assets/img/lora.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
+                    <img alt="Image placeholder" src="assets/img/mike.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header mt-2">
+                <div class="float-left">
+                  <i class="tim-icons icon-tag d-inline text-primary"></i>
+                  <p class="d-inline">A-11</p>
+                </div>
+                <div class="float-right">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
+                      <i class="tim-icons icon-settings-gear-63"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                      <a class="dropdown-item" href="javascript:;">Action</a>
+                      <a class="dropdown-item" href="javascript:;">Another action</a>
+                      <a class="dropdown-item" href="javascript:;">Something else</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body text-center p-4">
+                <a href="javascript:;">
+                  <img src="assets/img/dropbox.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                </a>
+                <h4 class="card-title mb-0">DropBox</h4>
+                <p class="card-description">It is important to save every project safely with our app.</p>
+                <h5 class="card-title mt-4">Members</h5>
+                <div class="avatar-group">
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
+                    <img alt="Image placeholder" src="assets/img/james.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
+                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
+                    <img alt="Image placeholder" src="assets/img/lora.jpg">
+                  </a>
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
+                    <img alt="Image placeholder" src="assets/img/mike.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header mt-2">
+                <div class="float-left">
+                  <i class="tim-icons icon-tag d-inline"></i>
+                  <p class="d-inline">E-28</p>
+                </div>
+                <div class="float-right">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
+                      <i class="tim-icons icon-settings-gear-63"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                      <a class="dropdown-item" href="javascript:;">Action</a>
+                      <a class="dropdown-item" href="javascript:;">Another action</a>
+                      <a class="dropdown-item" href="javascript:;">Something else</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body text-center p-4">
+                <a href="javascript:;">
+                  <img src="assets/img/unass.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                </a>
+                <h4 class="card-title mb-0">Unassigned</h4>
+                <p class="card-description">Here you can add your description and bellow add your members. </p>
+                <h5 class="card-title mt-4">Members</h5>
+                <div class="avatar-group">
+                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Add memberss">
+                    <i class="tim-icons icon-lock-circle"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   <!-- Education section end -->
 
