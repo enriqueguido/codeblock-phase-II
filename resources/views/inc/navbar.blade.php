@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-6 collapse-brand">
             <a>
-              <img src="./img/CodeBlockLogoWhite.png" alt="CodeBlock Logo" class="" height="20" width="20">
+              <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock Logo" class="" height="20" width="20">
               CodeBlock
               <!-- <span>CodeBlock </span> -->
             </a>
@@ -71,7 +71,7 @@
             <p>Info</p>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="pages/about-me">
+            <a class="dropdown-item" href="../pages/about-me">
               <i class="tim-icons icon-bulb-63"></i> About Me
             </a>
             <a class="dropdown-item" href="./examples/blog-post.html">

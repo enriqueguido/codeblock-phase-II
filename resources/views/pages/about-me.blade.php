@@ -42,7 +42,7 @@
           <h5 class="text-on-back">01</h5>
           <p class="profile-description">I was born in Buenos Aires, Argentina and currently residing in Tamarac, FLorida. A tech lover at heart with an analylitcal mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals. Professional and industry knowledgable.
           I am dedicated and committed to perfecting my craft, ambitious, driven, and results oriented. I love problem solving and finding fixes with technology.</p>
-          <div class="btn-wrapper profile pt-3">
+          <div class="btn-wrapper profile pt-3 pad-wrapper">
             <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
               <i class="fab fa-twitter"></i>
             </a>
@@ -138,53 +138,26 @@
                 </div>
                 <div class="tab-pane" id="linkb">
                   <div class="row">
-                    <label class="col-sm-3 col-form-label">Pay to</label>
+                    <div class="about-me-pm-text">
+                      I have taken on paid projects which give me not only the ooportunity to build the site but gain experience in contract negotiation and managed the project for its entirety. I am well versed in Agile Methodology, Lean Startup Methodology, weekly sprint schedules, standup meetings, user stories, acceptance criterias, and many modern project management tools like Jira, Slack, Google suites and much more. Contact me to find out more!
+                    </div>
+                    <!-- <label class="col-sm-3 col-form-label">Name</label>
                     <div class="col-sm-9">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="e.g. 1Nasd92348hU984353hfid">
-                        <span class="form-text">Please enter a valid address.</span>
+                        <input type="text" class="form-control" placeholder="Enter your name here">
+                        <span class="form-text">Please enter your name here.</span>
+                      </div>
+                    </div> -->
+                  </div>
+                  <!-- <div class="row">
+                    <label class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Enter an email address">
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <label class="col-sm-3 col-form-label">Amount</label>
-                    <div class="col-sm-9">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="1.587">
-                      </div>
-                    </div>
-                  </div>
-                  <button type="submit" class="btn btn-simple btn-primary btn-icon btn-round float-right"><i class="tim-icons icon-send"></i></button>
-                </div>
-                <div class="tab-pane" id="linkc">
-                  <div class="table-responsive">
-                    <table class="table tablesorter " id="plain-table">
-                      <thead class=" text-primary">
-                        <tr>
-                          <th class="header">
-                            Latest Crypto News
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            The Daily: Nexo to Pay on Stable...
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Venezuela Begins Public of Nation...
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            PR: BitCanna – Dutch Blockchain...
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <button type="submit" class="btn btn-simple btn-primary btn-icon btn-round float-right"><i class="tim-icons icon-send"></i></button> -->
                 </div>
               </div>
             </div>
@@ -205,41 +178,6 @@
                <!-- Fall back img -->
              <img src="../img/about-me-sec-two.svg" alt="Business person walking on arrow">
            </object>
-           <!-- <div class="row justify-content-between align-items-center">
-             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-               <ol class="carousel-indicators">
-                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-               </ol>
-               <div class="carousel-inner" role="listbox">
-                 <div class="carousel-item active">
-                   <img class="d-block" src="../assets/img/denys.jpg" alt="First slide">
-                   <div class="carousel-caption d-none d-md-block">
-                     <h5>Big City Life, United States</h5>
-                   </div>
-                 </div>
-                 <div class="carousel-item">
-                   <img class="d-block" src="../assets/img/fabien-bazanegue.jpg" alt="Second slide">
-                   <div class="carousel-caption d-none d-md-block">
-                     <h5>Somewhere Beyond, United States</h5>
-                   </div>
-                 </div>
-                 <div class="carousel-item">
-                   <img class="d-block" src="../assets/img/mark-finn.jpg" alt="Third slide">
-                   <div class="carousel-caption d-none d-md-block">
-                     <h5>Stocks, United States</h5>
-                   </div>
-                 </div>
-               </div>
-               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                 <i class="tim-icons icon-minimal-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                 <i class="tim-icons icon-minimal-right"></i>
-               </a>
-             </div>
-           </div> -->
          </div>
          <div class="col-md-5">
            <h1 class="profile-name-align text-left">Why choose me</h1>
@@ -305,18 +243,11 @@
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
-                    <div class="stats stats-right">
-                      <div class="stars text-warning">
-                        <i class="tim-icons icon-shape-star"></i>
-                        <i class="tim-icons icon-shape-star"></i>
-                        <i class="tim-icons icon-shape-star"></i>
-                        <i class="tim-icons icon-shape-star"></i>
-                        <i class="tim-icons icon-shape-star"></i>
-                      </div>
-                    </div>
                     <div class="author">
-                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
-                      <span>Material Kit</span>
+                      <span>MDVIP Project Manager</span>
+                      <div class="about-me-work">
+                        Currently employed as a Project Manager where I work with stakeholders and executives to understand and analyze projects requirements, and manage projects from beginning to end while ensuring that the projects get accomplish within its due time, budget, and scope. Perform business analyst functions depending on size of the project or requirements.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -329,13 +260,12 @@
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
-                    <div class="stats stats-right">
-                      <i class="tim-icons icon-heart-2 text-danger"></i> 342 ·
-                      <i class="tim-icons icon-single-copy-04 text-info"></i> 43
-                    </div>
                     <div class="author">
-                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
-                      <span>Black Dashboard</span>
+                      <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
+                      <span>CISR Agent</span>
+                      <div class="about-me-work">
+                        Acquired a CISR designation in the insurance industry, and worked closely with team leaders to process endorsements and/or changes within approved authority level and perform transactions according to the latest corporate standards, manual rates, guidelines and procedures.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -348,12 +278,12 @@
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
-                    <div class="stats stats-right">
-                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
-                    </div>
                     <div class="author">
-                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
-                      <span>Argon Dashboard Pro</span>
+                      <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
+                      <span>PNC Bank Backup Teller Supervisor</span>
+                      <div class="about-me-work">
+                        At PNC BANK I was a Back-Up Teller Supervisor in a DeNovo Branch. I was in charge of various tasks that ranged from full control of the banks vault, the bank’s ATM’s and all of its corresponding duties, deposits and withdrawal, opening and closing functions, and calling prospective clients as well as businesses for future partnerships.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -366,12 +296,12 @@
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
-                    <div class="stats stats-right">
-                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
-                    </div>
                     <div class="author">
-                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
-                      <span>Argon Dashboard Pro</span>
+                      <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
+                      <span>Bank of America Teller</span>
+                      <div class="about-me-work">
+                        At Bank of America I was a Teller and always met and surpass performance and sales goals, mantained cash accuracy, made deposits and withdrawals, CTR’s, and currency exchanges, while making each customer feel valued, important and deserving of the best service possible.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -384,12 +314,12 @@
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
-                    <div class="stats stats-right">
-                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
-                    </div>
                     <div class="author">
-                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
-                      <span>Argon Dashboard Pro</span>
+                      <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
+                      <span>Startup</span>
+                      <div class="about-me-work">
+                        Won Palm Beach Startup Weekend 2015, attended FAU startup bootcamp, have learned lean startup methedologies and took part in several projects that give me unique experiences and knowledge that can not be thought in the classroom. I have worked with CEO's/Founders to turn  their ideas into creative work and worked closely with them to design pitch decks, busienss plans, and assisted in several other stages of their business.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -402,12 +332,12 @@
                 </div>
                 <div class="card-body text-left">
                   <div class="card-footer mt-0">
-                    <div class="stats stats-right">
-                      <i class="tim-icons icon-heart-2 text-danger"></i> 127
-                    </div>
                     <div class="author">
-                      <img src="assets/img/Tim.png" alt="..." class="avatar img-raised">
-                      <span>Argon Dashboard Pro</span>
+                      <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
+                      <span>Stay tuned</span>
+                      <div class="about-me-work">
+                        I am always taking on new projects and finding new ways to better myself and perfect my craft. Stay tuned to see more experience.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -415,40 +345,12 @@
             </div>
           </div>
         <!-- </div> -->
-        <div class="tab-pane" id="project2">
-          <div class="space-100"></div>
-          <div class="col-md-8 ml-auto mr-auto text-center mt-4">
-            <p class="description mb-5">Add your information here for Project2.</p>
-          </div>
-          <div class="space-100"></div>
-        </div>
-        <div class="tab-pane" id="project3">
-          <div class="space-100"></div>
-          <div class="col-md-8 ml-auto mr-auto text-center mt-4">
-            <p class="description mb-5">Add your information here for Project3.</p>
-          </div>
-          <div class="space-100"></div>
-        </div>
-        <div class="tab-pane" id="project4">
-          <div class="space-100"></div>
-          <div class="col-md-8 ml-auto mr-auto text-center mt-4">
-            <p class="description mb-5">Add your information here for Project4.</p>
-          </div>
-          <div class="space-100"></div>
-        </div>
-        <div class="tab-pane" id="project5">
-          <div class="space-100"></div>
-          <div class="col-md-8 ml-auto mr-auto text-center mt-4">
-            <p class="description mb-5">Add your information here for Project5.</p>
-          </div>
-          <div class="space-100"></div>
-        </div>
       </div>
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center mt-4">
           <h3 class="title">Interested in hiring me?</h3>
-          <h4 class="description mb-5">This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.</h4>
-          <button class="btn btn-primary btn-lg">Contact me</button>
+          <h4 class="description mb-5">If you got questions about my projects or need assitance with any of your projects feel free to contact me at any time. I'm here to help!</h4>
+          <button class="about-me-btn-green btn-lg">Contact me</button>
         </div>
       </div>
     </div>
@@ -460,7 +362,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mr-auto ml-auto text-center mb-5">
-          <h2 class="title">Some of Our Awesome Projects - 1</h2>
+          <h2 class="title">Education</h2>
         </div>
       </div>
     </div>
@@ -471,42 +373,16 @@
             <div class="card-header mt-2">
               <div class="float-left">
                 <i class="tim-icons icon-tag d-inline text-info"></i>
-                <p class="d-inline">H-23</p>
-              </div>
-              <div class="float-right">
-                <div class="dropdown">
-                  <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                    <i class="tim-icons icon-settings-gear-63"></i>
-                  </button>
-                  <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                    <a class="dropdown-item" href="javascript:;">Action</a>
-                    <a class="dropdown-item" href="javascript:;">Another action</a>
-                    <a class="dropdown-item" href="javascript:;">Something else</a>
-                  </div>
-                </div>
+                <p class="d-inline">2020</p>
               </div>
             </div>
               <div class="card-body text-center p-4">
-                <a href="javascript:;">
-                  <img src="assets/img/slack.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                <a href="http://www.broward.edu/Pages/home.aspx" target="_blank">
+                  <img src="../img/broward_college.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
                 </a>
-                <h4 class="card-title mb-0">Slack</h4>
-                <p class="card-description">We are happy to work at such a great project.</p>
-                <h5 class="card-title mt-4">Members</h5>
-                <div class="avatar-group">
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                    <img alt="Image placeholder" src="assets/img/james.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                    <img alt="Image placeholder" src="assets/img/lora.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                    <img alt="Image placeholder" src="assets/img/mike.jpg">
-                  </a>
-                </div>
+                <h4 class="card-title mb-0">Broward College</h4>
+                <p class="card-description">Curretly pursuing a bachelors degree in Information Technology with a minors in Business Administration.</p>
+                <h5 class="card-title mt-4">Bachelors Information Technology</h5>
               </div>
             </div>
           </div>
@@ -515,42 +391,16 @@
               <div class="card-header mt-2">
                 <div class="float-left">
                   <i class="tim-icons icon-tag d-inline text-success"></i>
-                  <p class="d-inline">F-43</p>
-                </div>
-                <div class="float-right">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                      <i class="tim-icons icon-settings-gear-63"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                      <a class="dropdown-item" href="javascript:;">Action</a>
-                      <a class="dropdown-item" href="javascript:;">Another action</a>
-                      <a class="dropdown-item" href="javascript:;">Something else</a>
-                    </div>
-                  </div>
+                  <p class="d-inline">2017</p>
                 </div>
               </div>
               <div class="card-body text-center p-4">
-                <a href="javascript:;">
-                  <img src="assets/img/spotify.jpeg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                <a href="https://wyncode.co/" target="_blank">
+                  <img src="../img/Wyncode.png" alt="Circle image" class="img-fluid rounded-circle shadow experience-circle-pic" style="width: 100px;">
                 </a>
-                <h4 class="card-title mb-0">Spotify</h4>
-                <p class="card-description">We strive to embrace and drive change in our industry.</p>
-                <h5 class="card-title mt-4">Members</h5>
-                <div class="avatar-group">
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                    <img alt="Image placeholder" src="assets/img/james.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                    <img alt="Image placeholder" src="assets/img/lora.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                    <img alt="Image placeholder" src="assets/img/mike.jpg">
-                  </a>
-                </div>
+                <h4 class="card-title mb-0">Wyncode Academy</h4>
+                <p class="card-description">Completed 350 hours of instruction in Ruby, Ruby on Rails, SQL, JavaScript, HTML, CSS, and Agile Project Management.</p>
+                <h5 class="card-title mt-4">Full Stack Web Development.</h5>
               </div>
             </div>
           </div>
@@ -559,42 +409,16 @@
               <div class="card-header mt-2">
                 <div class="float-left">
                   <i class="tim-icons icon-tag d-inline text-danger"></i>
-                  <p class="d-inline">J-11</p>
-                </div>
-                <div class="float-right">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                      <i class="tim-icons icon-settings-gear-63"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                      <a class="dropdown-item" href="javascript:;">Action</a>
-                      <a class="dropdown-item" href="javascript:;">Another action</a>
-                      <a class="dropdown-item" href="javascript:;">Something else</a>
-                    </div>
-                  </div>
+                  <p class="d-inline">2015</p>
                 </div>
               </div>
               <div class="card-body text-center p-4">
-                <a href="javascript:;">
-                  <img src="assets/img/dribbble.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                <a href="http://www.broward.edu/Pages/home.aspx" target="_blank">
+                  <img src="../img/broward_college.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
                 </a>
-                <h4 class="card-title mb-0">Dribbble</h4>
-                <p class="card-description">The time has come to bring our plans and ideas to life.</p>
-                <h5 class="card-title mt-4">Members</h5>
-                <div class="avatar-group">
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                    <img alt="Image placeholder" src="assets/img/james.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                    <img alt="Image placeholder" src="assets/img/lora.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                    <img alt="Image placeholder" src="assets/img/mike.jpg">
-                  </a>
-                </div>
+                <h4 class="card-title mb-0">Broward College</h4>
+                <p class="card-description">Received a certificate from Broward College as part of completing my undergraduate work.</p>
+                <h5 class="card-title mt-4">Certified Accounting Technology Specialist</h5>
               </div>
             </div>
           </div>
@@ -603,42 +427,16 @@
               <div class="card-header mt-2">
                 <div class="float-left">
                   <i class="tim-icons icon-tag d-inline text-warning"></i>
-                  <p class="d-inline">A-11</p>
-                </div>
-                <div class="float-right">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                      <i class="tim-icons icon-settings-gear-63"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                      <a class="dropdown-item" href="javascript:;">Action</a>
-                      <a class="dropdown-item" href="javascript:;">Another action</a>
-                      <a class="dropdown-item" href="javascript:;">Something else</a>
-                    </div>
-                  </div>
+                  <p class="d-inline">2015</p>
                 </div>
               </div>
               <div class="card-body text-center p-4">
-                <a href="javascript:;">
-                  <img src="assets/img/Tim.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                <a href="http://www.broward.edu/Pages/home.aspx">
+                  <img src="../img/broward_college.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
                 </a>
-                <h4 class="card-title mb-0">CreativeTim</h4>
-                <p class="card-description">We are developing the best design projects. </p>
-                <h5 class="card-title mt-4">Members</h5>
-                <div class="avatar-group">
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                    <img alt="Image placeholder" src="assets/img/james.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                    <img alt="Image placeholder" src="assets/img/lora.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                    <img alt="Image placeholder" src="assets/img/mike.jpg">
-                  </a>
-                </div>
+                <h4 class="card-title mb-0">Broward College</h4>
+                <p class="card-description">Received a certificate from Broward College as part of completing my undergraduate work.</p>
+                <h5 class="card-title mt-4">Business Specialist Certification</h5>
               </div>
             </div>
           </div>
@@ -647,42 +445,16 @@
               <div class="card-header mt-2">
                 <div class="float-left">
                   <i class="tim-icons icon-tag d-inline text-primary"></i>
-                  <p class="d-inline">A-11</p>
-                </div>
-                <div class="float-right">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                      <i class="tim-icons icon-settings-gear-63"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                      <a class="dropdown-item" href="javascript:;">Action</a>
-                      <a class="dropdown-item" href="javascript:;">Another action</a>
-                      <a class="dropdown-item" href="javascript:;">Something else</a>
-                    </div>
-                  </div>
+                  <p class="d-inline">2015</p>
                 </div>
               </div>
               <div class="card-body text-center p-4">
-                <a href="javascript:;">
-                  <img src="assets/img/dropbox.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                <a href="http://www.broward.edu/Pages/home.aspx">
+                  <img src="../img/broward_college.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
                 </a>
-                <h4 class="card-title mb-0">DropBox</h4>
-                <p class="card-description">It is important to save every project safely with our app.</p>
-                <h5 class="card-title mt-4">Members</h5>
-                <div class="avatar-group">
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                    <img alt="Image placeholder" src="assets/img/james.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                    <img alt="Image placeholder" src="assets/img/ryan.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                    <img alt="Image placeholder" src="assets/img/lora.jpg">
-                  </a>
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                    <img alt="Image placeholder" src="assets/img/mike.jpg">
-                  </a>
-                </div>
+                <h4 class="card-title mb-0">Broward College</h4>
+                <p class="card-description">Received a certificate from Broward College as part of completing my undergraduate work.</p>
+                <h5 class="card-title mt-4">Business Operations Certification</h5>
               </div>
             </div>
           </div>
@@ -691,33 +463,16 @@
               <div class="card-header mt-2">
                 <div class="float-left">
                   <i class="tim-icons icon-tag d-inline"></i>
-                  <p class="d-inline">E-28</p>
-                </div>
-                <div class="float-right">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" aria-expanded="false">
-                      <i class="tim-icons icon-settings-gear-63"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
-                      <a class="dropdown-item" href="javascript:;">Action</a>
-                      <a class="dropdown-item" href="javascript:;">Another action</a>
-                      <a class="dropdown-item" href="javascript:;">Something else</a>
-                    </div>
-                  </div>
+                  <p class="d-inline">2015</p>
                 </div>
               </div>
               <div class="card-body text-center p-4">
-                <a href="javascript:;">
-                  <img src="assets/img/unass.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                <a href="http://www.broward.edu/Pages/home.aspx">
+                  <img src="../img/broward_college.jpg" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
                 </a>
-                <h4 class="card-title mb-0">Unassigned</h4>
-                <p class="card-description">Here you can add your description and bellow add your members. </p>
-                <h5 class="card-title mt-4">Members</h5>
-                <div class="avatar-group">
-                  <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Add memberss">
-                    <i class="tim-icons icon-lock-circle"></i>
-                  </a>
-                </div>
+                <h4 class="card-title mb-0">Broward College</h4>
+                <p class="card-description">Received a certificate from Broward College as part of completing my undergraduate work.</p>
+                <h5 class="card-title mt-4">Business Management Certification</h5>
               </div>
             </div>
           </div>

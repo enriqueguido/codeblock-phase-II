@@ -163,7 +163,7 @@
                 <br/>
                 <p>I have gain valuable experience in streamlining business processes, conflic resolution, and created Standar Operation Procedures, and traning manuals for small and mid-size companies.</p>
                 <br/>
-                <a href="#" class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
+                <a href="pages/about-me" class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
               </div>
             </div>
           </div>
@@ -183,11 +183,11 @@
               <div class="pl-md-5">
                 <h1>Start-up
                   <br/>Experience</h1>
-                <p>I Have worked hand-in-hand with founders to design logos, pitch decks, business plans, financial projections, and start-up valuations among others.</p>
+                <p>I Have worked hand-in-hand with founders to design logos, pitch decks, business plans, financial projections, and much more.</p>
                 <br/>
                 <p>I am well verse in the Lean Start-up &amp; agiles methodologies and can help you turn your idea to a full flesh product.</p>
                 <br/>
-                <a href="#" class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
+                <a href="pages/about-me" class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
               </div>
             </div>
             <div class="col-md-5 mt-lg-5">
@@ -452,7 +452,7 @@
 
     <!-- =================== Email Section ==================== -->
     <div class="header header-5">
-      <div class="page-header page-header-sec">
+      <div class="page-header page-header-sec email-contact-sec">
         <div class="container">
           <div class="row align-items-center mt-md-5">
             <div class="col-lg-6 col-md-8 ml-auto mr-auto">
@@ -464,9 +464,9 @@
               <!-- </div> -->
               <h2 class="title text-left">Lets build something awesome together! Contact me to find out how.</h2>
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Enter your email here and I will contact you">
+                <input type="text" class="form-control input-border-blue" placeholder="Enter your email here and I will contact you">
                 <div class="input-group-append">
-                  <span class="input-group-text"><i class="tim-icons icon-lock-circle"></i></span>
+                  <span class="input-group-text input-border-blue"><i class="tim-icons icon-lock-circle"></i></span>
                 </div>
               </div>
               <a class="btn btn-info btn-simple btn-icon" href="">
