@@ -29,6 +29,44 @@
 				</div>
       </div>
     </div>
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="page-header background-main" style="background-image:url('./img/background-sky.jpg')">
+            <div class="squares square1"></div>
+            <div class="squares square2"></div>
+            <div class="squares square3"></div>
+            <div class="squares square4"></div>
+            <div class="squares square5"></div>
+            <div class="squares square6"></div>
+            <div class="squares square7"></div>
+            <div class="container">
+              <div class="content-center brand">
+                <h1 class="h1-seo center-left mobile-size" id="changeText"></h1>
+              </div>
+              <div class="hero-rocket">
+      					<img src="./img/rocket.png" alt="">
+      				</div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="page-header background-main" data-dark-overlay="6" style="background-image:url('../img/blur-business-coffee-commerce.jpg')" alt="Second slide"></div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <i class="tim-icons icon-minimal-left"></i>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <i class="tim-icons icon-minimal-right"></i>
+      </a>
+    </div> -->
+
     <!-- ================ End of Background ================= -->
 
     <!-- ==================== Social Media Section =================== -->

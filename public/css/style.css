@@ -257,7 +257,7 @@
   right: 0;
   bottom: 0;
   background: #333895;
-  z-index: -1
+  z-index: 1
 }
 
 .about-me-profile {

@@ -168,7 +168,12 @@ $(document).ready(function() {
 
   // Activate Carousel
   $('.carousel').carousel({
-    interval: 4000
+    interval: 4000,
+    pause: "false"
+  });
+
+  $('.carousel-home').carousel({
+      pause: "false"
   });
 
   if ($(".datetimepicker").length != 0) {
