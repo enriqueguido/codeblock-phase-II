@@ -13,7 +13,7 @@
 
   <!-- Intro background photo -->
   <div class="wrapper">
-    <div class="page-header header-filter">
+    <div class="page-header page-header-mobile header-filter">
       <div class="page-header-image" data-parallax="true" data-dark-overlay="6" style="background-image: url('../img/about-me.jpg');"></div>
       <div class="container">
         <div class="row">
@@ -32,7 +32,7 @@
   <!-- Intro background photo -->
 
   <!-- About me info section -->
-  <div class="page-header">
+  <div class="page-header page-header-mobile">
     <!-- <img src="../img/dots.png" class="dots"> -->
     <img src="../img/path4.png" class="path about-me-path">
     <div class="container align-items-center">

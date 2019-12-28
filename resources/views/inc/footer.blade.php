@@ -1,8 +1,8 @@
 <div class="container">
-  <a class="footer-brand" href="javascript:;">CB• Web Application By G.M.E</a>
+  <a class="footer-brand" href='{!! url('/'); !!}'>CB• Web Application By G.M.E</a>
   <ul class="pull-center">
     <li>
-      <a href="javascript:;">
+      <a href="'{!! url('/'); !!}'">
         Home
       </a>
     </li>
@@ -12,7 +12,7 @@
       </a>
     </li>
     <li>
-      <a href="javascript:;">
+      <a href='{!! url('pages/about-me'); !!}'>
         About Me
       </a>
     </li>

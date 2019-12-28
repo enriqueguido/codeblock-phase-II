@@ -163,7 +163,7 @@
                 <br/>
                 <p>I have gain valuable experience in streamlining business processes, conflic resolution, and created Standar Operation Procedures, and traning manuals for small and mid-size companies.</p>
                 <br/>
-                <a href="pages/about-me" class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
+                <a href='{!! url('pages/about-me'); !!}' class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
               </div>
             </div>
           </div>
@@ -187,7 +187,7 @@
                 <br/>
                 <p>I am well verse in the Lean Start-up &amp; agiles methodologies and can help you turn your idea to a full flesh product.</p>
                 <br/>
-                <a href="pages/about-me" class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
+                <a href='{!! url('pages/about-me'); !!}' class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
               </div>
             </div>
             <div class="col-md-5 mt-lg-5">
@@ -207,7 +207,7 @@
   <!-- ================ Tech Section ================== -->
   <div class="landing-page">
     <div class="page-header">
-      <div class="section-nucleo-icons">
+      <div class="section-nucleo-icons section-nucleo-icons-mobile">
         <img src="../img/path3.png" class="path">
         <div class="sec-margin-top">
           <div class="row justify-content-center">

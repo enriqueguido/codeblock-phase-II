@@ -366,12 +366,12 @@
     height: 105vh;
   } */
 
-  /* .section-nucleo-icons {
-    --icon-size: 4rem;
-    --icon-sm-size: 2.75rem;
-    --gutter: 3rem;
-    overflow: hidden;
-  } */
+  .section-nucleo-icons-mobile {
+    --icon-size: 4rem !important;
+    --icon-sm-size: 2.75rem !important;
+    --gutter: 3rem !important;
+    overflow: hidden !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -429,12 +429,12 @@
   }
 }
 
-/* @media screen and (max-width: 1024px) {
-.page-header {
+@media screen and (max-width: 1024px) {
+.page-header-mobile {
     min-height: 62vh !important;
     max-height: 1235px !important;
   }
-} */
+}
 
 .pad-wrapper {
   padding: 1rem !important;
