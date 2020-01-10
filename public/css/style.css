@@ -447,3 +447,26 @@
 .description-padding {
   margin-bottom: 5px !important;
 }
+
+.contact-header-vid {
+  position: absolute !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1 !important;
+}
+
+.btn-primary-contact {
+  background: #1d8cf8;
+  /* background-image: -webkit-linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3);
+  background-image: -o-linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3);
+  background-image: -moz-linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3);
+  background-image: linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3); */
+  background-size: 210% 210%;
+  background-position: top right;
+  background-color: #1d8cf8;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #ffffff;
+}
