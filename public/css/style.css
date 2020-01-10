@@ -439,3 +439,11 @@
 .pad-wrapper {
   padding: 1rem !important;
 }
+
+.contact-map-title {
+  padding-top: 7%;
+}
+
+.description-padding {
+  margin-bottom: 5px !important;
+}

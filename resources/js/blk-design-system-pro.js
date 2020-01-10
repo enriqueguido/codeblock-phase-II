@@ -635,7 +635,7 @@ blackKit = {
 
 
   initContactUs2Map: function() {
-    var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
+    var myLatlng = new google.maps.LatLng(26.204494, -80.3006408);
     var mapOptions = {
       zoom: 13,
       center: myLatlng,

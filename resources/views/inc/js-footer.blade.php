@@ -23,9 +23,9 @@
 <script src="../js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
 <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
 <script src="../js/plugins/jasny-bootstrap.min.js"></script>
-<!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
 <!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3qD6RR7pzDmHR5jXZVK7JfdwjxTx7QP8&callback=initMap"></script>  -->
+<!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
 <script src="../js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
 <script>
   $(document).ready(function() {
