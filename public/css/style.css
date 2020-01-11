@@ -148,19 +148,6 @@
     margin: 30px auto;
   }
 
-  /* [class*="features-"],
-  [class*="team-"],
-  [class*="projects-"],
-  [class*="pricing-"],
-  [class*="testimonials-"],
-  [class*="contactus-"] {
-  padding: 80px 0;
-  } */
-
-  /* .title {
-    margin-top: 166px;
-  } */
-
   .index-page .page-header {
     height: 130vh;
   }
@@ -177,12 +164,6 @@
     height: 160vh;
   }
 }
-
-
-/* @media only screen and (min-width: 1024px) and (max-width: 1366px ) {
-
-
-} */
 
 .social-media-row {
   display: flex;
@@ -301,8 +282,8 @@
 }
 
 .about-me-nav-color {
-  border-color: #00f2c3 !important;
-  color: #00f2c3 !important;
+  border-color: #1d8cf8 !important;
+  color: #1d8cf8 !important;
 }
 
 .about-me-work {
@@ -459,14 +440,100 @@
 
 .btn-primary-contact {
   background: #1d8cf8;
-  /* background-image: -webkit-linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3);
-  background-image: -o-linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3);
-  background-image: -moz-linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3);
-  background-image: linear-gradient(to bottom left, #00f2c3, #00f2c3, #00f2c3); */
+  background-image: -webkit-linear-gradient(to bottom left, #1d8cf8, #1d8cf8, #1d8cf8);
+  background-image: -o-linear-gradient(to bottom left, #1d8cf8, #1d8cf8, #1d8cf8);
+  background-image: -moz-linear-gradient(to bottom left, #1d8cf8, #1d8cf8, #1d8cf8);
+  background-image: linear-gradient(to bottom left, #1d8cf8, #1d8cf8, #1d8cf8);
   background-size: 210% 210%;
   background-position: top right;
   background-color: #1d8cf8;
   transition: all 0.15s ease;
   box-shadow: none;
   color: #ffffff;
+}
+
+.btn-primary-contact:hover,
+.btn-primary-contact:focus,
+.btn-primary-contact:active,
+.btn-primary-contact.active,
+.btn-primary-contact:active:focus,
+.btn-primary-contact:active:hover,
+.btn-primary-contact.active:focus,
+.btn-primary-contact.active:hover {
+  background-color: #ffffff !important;
+  background-image: linear-gradient(to bottom left, #ffffff, #ffffff, #ffffff) !important;
+  background-image: -webkit-linear-gradient(to bottom left, #ffffff, #ffffff, #ffffff) !important;
+  background-image: -o-linear-gradient(to bottom left, #ffffff, #ffffff, #ffffff) !important;
+  background-image: -moz-linear-gradient(to bottom left, #ffffff, #ffffff, #ffffff) !important;
+  color: #1d8cf8;
+  box-shadow: none;
+}
+
+/* .input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.428571;
+  color: #1d8cf8;
+  text-align: center;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 1px solid #1d8cf8 !important;
+  border-radius: 0.25rem;
+} */
+
+/* .form-control {
+  border-color: #1d8cf8;
+  border-radius: 0.4285rem;
+  font-size: 0.75rem;
+  -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+} */
+
+.form-control:focus {
+  border-color: #1d8cf8;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.form-control:focus+.input-group-append .input-group-text,
+.form-control:focus~.input-group-append .input-group-text,
+.form-control:focus+.input-group-prepend .input-group-text,
+.form-control:focus~.input-group-prepend .input-group-text {
+  border: 1px solid #1d8cf8 !important;
+  border-left: none;
+  background-color: transparent;
+}
+
+.input-group-focus .input-group-prepend .input-group-text,
+.input-group-focus .input-group-append .input-group-text {
+  background-color: #ffffff;
+  border-color: #1d8cf8 !important;
+  background-color: transparent;
+  border-color: #1d8cf8 !important;
+}
+
+.form-check input[type="checkbox"]:checked+.form-check-sign::before,
+.form-check input[type="checkbox"]:checked+.form-check-sign::before {
+  border: none;
+  background-color: #1d8cf8 !important;
+}
+
+[class*="features-"],
+[class*="team-"],
+[class*="projects-"],
+[class*="pricing-"],
+[class*="testimonials-"],
+[class*="contactus-"] {
+  padding: 0px 0 !important;
+}
+
+.mrgn-bot-about {
+  margin-bottom: 80px;
 }

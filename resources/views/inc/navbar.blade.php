@@ -74,7 +74,7 @@
             <a class="dropdown-item" href='{!! url('pages/about-me'); !!}'>
               <i class="tim-icons icon-bulb-63"></i> About Me
             </a>
-            <a class="dropdown-item" href="">
+            <a class="dropdown-item" href='{!! url('pages/contact'); !!}'>
               <i class="tim-icons icon-square-pin"></i> Contact
             </a>
           </div>

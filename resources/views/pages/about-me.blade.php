@@ -11,7 +11,7 @@
   @extends('inc.navbar')
   <!-- ============= End Navbar =============== -->
 
-  <!-- Intro background photo -->
+  <!-- =============== Intro background photo =============== -->
   <div class="wrapper">
     <div class="page-header page-header-mobile header-filter">
       <div class="page-header-image" data-parallax="true" data-dark-overlay="6" style="background-image: url('../img/about-me.jpg');"></div>
@@ -29,9 +29,9 @@
       </div>
     </div>
   </div>
-  <!-- Intro background photo -->
+  <!-- ================== Intro background photo =================== -->
 
-  <!-- About me info section -->
+  <!-- ================== About me info section =================== -->
   <div class="page-header page-header-mobile">
     <!-- <img src="../img/dots.png" class="dots"> -->
     <img src="../img/path4.png" class="path about-me-path">
@@ -166,9 +166,9 @@
       </div>
     </div>
   </div>
-  <!-- About me info section end -->
+  <!-- ==================== About me info section end ================ -->
 
-  <!-- About me second info section -->
+  <!-- ================= About me second info section =============== -->
   <div class="section">
     <img src="../img/path5.png" class="about-me-path2">
      <div class="container">
@@ -195,9 +195,9 @@
        </div>
      </div>
    </div>
-  <!-- About me second info section end -->
+  <!-- ================= About me second info section end ================ -->
 
-  <!-- Experience section -->
+  <!-- ==================== Experience section ================= -->
   <div class="projects-2 project-raised experience-section">
     <div class="container">
       <div class="row">
@@ -346,18 +346,11 @@
           </div>
         <!-- </div> -->
       </div>
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto text-center mt-4">
-          <h3 class="title">Interested in hiring me?</h3>
-          <h4 class="description mb-5">If you got questions about my projects or need assitance with any of your projects feel free to contact me at any time. I'm here to help!</h4>
-          <button class="about-me-btn-green btn-lg">Contact me</button>
-        </div>
-      </div>
     </div>
   </div>
-  <!-- Experience section end -->
+  <!-- ==================== Experience section end ================= -->
 
-  <!-- Education section -->
+  <!-- ===================== Education section ================== -->
   <div class="projects-1">
     <div class="container">
       <div class="row">
@@ -479,7 +472,18 @@
         </div>
       </div>
     </div>
-  <!-- Education section end -->
+  <!-- ===================== Education section ================== end -->
+
+  <!-- ================== Hire me section ===================== -->
+  <div class="row">
+    <div class="col-md-8 ml-auto mr-auto text-center mt-4">
+      <h3 class="title">Interested in hiring me?</h3>
+      <h4 class="description mb-5">If you got questions about my projects or need assitance with any of your projects feel free to contact me at any time. I'm here to help!</h4>
+      <button class="btn btn-primary btn-primary-contact btn-round btn-lg mrgn-bot-about">Contact me</button>
+    </div>
+  </div>
+
+  <!-- ================== Hire me section ===================== -->
 
     <!-- ============ Footer with Social Media ============= -->
     <footer class="footer" data-background-color="black">
