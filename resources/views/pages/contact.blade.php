@@ -144,7 +144,7 @@
                    <div class="icon">
                      <i class="tim-icons icon-square-pin"></i>
                    </div>
-                   <div class="description">
+                   <div class="description contact-card-pad">
                      <h5 class="info-title">
                        Fort Lauderdale
                        <br> Florida 33301

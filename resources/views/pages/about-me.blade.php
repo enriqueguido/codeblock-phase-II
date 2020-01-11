@@ -351,7 +351,7 @@
   <!-- ==================== Experience section end ================= -->
 
   <!-- ===================== Education section ================== -->
-  <div class="projects-1">
+  <div class="ed-sec">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mr-auto ml-auto text-center mb-5">

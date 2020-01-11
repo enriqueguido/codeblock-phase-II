@@ -151,6 +151,11 @@
   .index-page .page-header {
     height: 130vh;
   }
+
+  .contact-card-pad {
+    margin-bottom: 35px !important;
+  }
+
 }
 
 /* @media only screen and (max-width: 768px) {
@@ -355,7 +360,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   .index-page .page-header {
     min-height: 65vh;
     max-height: 670px;
@@ -381,6 +386,12 @@
     max-height: 1215px !important;
   }
 
+  .contactus-4 .info {
+    height: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 25px;
+  }
 
 }
 
@@ -525,14 +536,14 @@
   background-color: #1d8cf8 !important;
 }
 
-[class*="features-"],
+/* [class*="features-"],
 [class*="team-"],
 [class*="projects-"],
 [class*="pricing-"],
 [class*="testimonials-"],
 [class*="contactus-"] {
   padding: 0px 0 !important;
-}
+} */
 
 .mrgn-bot-about {
   margin-bottom: 80px;
