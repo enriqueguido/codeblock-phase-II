@@ -80,7 +80,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a href="#" class=" nav-link">
+          <a href='{!! url('pages/blog-posts'); !!}' class=" nav-link">
             <i class="tim-icons icon-notes"></i> Blog Posts
           </a>
         </li>

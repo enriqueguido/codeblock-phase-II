@@ -518,7 +518,7 @@
 .form-control:focus+.input-group-prepend .input-group-text,
 .form-control:focus~.input-group-prepend .input-group-text {
   border: 1px solid #1d8cf8 !important;
-  border-left: none;
+  border-left: none !important;
   background-color: transparent;
 }
 
@@ -547,4 +547,8 @@
 
 .mrgn-bot-about {
   margin-bottom: 80px;
+}
+
+.contact-alert-margin {
+  margin: 10px;
 }

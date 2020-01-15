@@ -13,24 +13,32 @@
 
   <div class="wrapper">
     <div class="page-header page-header-small header-filter">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/ruvim-noga.jpg');">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('../img/blog-post.jpg');">
       </div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto text-center">
-            <h1 class="title">A Place for Entrepreneurs to Share and Discover New Stories</h1>
-            <a href="#button" class="btn btn-primary btn-round  btn-icon">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#button" class="btn btn-primary btn-round  btn-icon">
-              <i class="fab fa-instagram"></i>
-            </a>
+            <h1 class="title">A Place to share my journey as a dveloper &amp; tips &amp; tricks I learned along the way.</h1>
+            <!-- <div class="btn-wrapper profile pt-3 pad-wrapper"> -->
+              <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a target="_blank" href="https://www.instagram.com/code_monkey01/" class="btn btn-icon btn-instagram btn-round" data-toggle="tooltip" data-original-title="Follow me on Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-linkedin  btn-round" data-toggle="tooltip" data-original-title="Follow me on LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a target="_blank" href="https://github.com/enriqueguido" class="btn btn-icon btn-github btn-round" data-toggle="tooltip" data-original-title="Follow me on GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            <!-- </div> -->
           </div>
         </div>
       </div>
     </div>
     <div class="main main-raised">
-      <div class="container">
+      <!-- <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="card card-blog card-plain">
@@ -187,8 +195,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section">
+      </div> -->
+      <!-- <div class="section">
         <div class="container">
           <div class="row">
             <div class="col-md-12 ml-auto mr-auto">
@@ -255,8 +263,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section blogs-4">
+      </div> -->
+      <!-- <div class="section blogs-4">
         <div class="container-fluid">
           <h1 class="title text-center">Stay tuned with our fresh stories</h1>
           <br/>
@@ -315,8 +323,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section team-4">
+      </div> -->
+      <!-- <div class="section team-4">
         <div class="container">
           <h2 class="title text-center">Our authors</h2>
           <br/>
@@ -485,11 +493,11 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="title text-center">
+      </div> -->
+      <!-- <div class="title text-center">
         <h3>Show us some love</h3>
-      </div>
-      <div class="social-line social-line-big-icons">
+      </div> -->
+      <!-- <div class="social-line social-line-big-icons">
         <div class="container">
           <div class="row">
             <div class="col-md-2">
@@ -524,15 +532,16 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="subscribe-line">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-10 ml-auto mr-auto">
               <div class="text-center">
-                <h4 class="title">Subscribe to our Newsletter</h4>
+                <h2 class="title">Blog Post Coming Soon!</h2>
+                <h4 class="title">Subscribe to find out more</h4>
                 <p class="description">
-                  Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
+                  Send me your email and I will notify you when first blog post is out.
                 </p>
               </div>
               <div class="card card-raised card-form-horizontal">
@@ -548,7 +557,7 @@
                         </div>
                       </div>
                       <div class="col-sm-4">
-                        <button type="button" class="btn btn-primary btn-block">Subscribe</button>
+                        <button type="button" class="btn btn-primary-contact btn-block">Subscribe</button>
                       </div>
                     </div>
                   </form>
@@ -559,77 +568,6 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h1 class="title">BLK•</h1>
-          </div>
-          <div class="col-md-3 col-6">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="../index.html" class="nav-link">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/landing-page.html" class="nav-link">
-                  Landing
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/register-page.html" class="nav-link">
-                  Register
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/profile-page.html" class="nav-link">
-                  Profile
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-6">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="https://creative-tim.com/contact-us?ref=blkdsp-footer" class="nav-link">
-                  Contact Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://creative-tim.com/about-us?ref=blkdsp-footer" class="nav-link">
-                  About Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="http://creative-tim.com/blog?ref=blkdsp-footer" class="nav-link">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://opensource.org/licenses/MIT?ref=blkdsp-footer" class="nav-link">
-                  License
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3 class="title">Follow us:</h3>
-            <div class="btn-wrapper profile text-left">
-              <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-              <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                <i class="fab fa-dribbble"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
   </div>
 
   <!-- ============ Footer with Social Media ============= -->

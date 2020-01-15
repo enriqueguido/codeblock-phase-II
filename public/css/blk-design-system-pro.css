@@ -19461,6 +19461,7 @@ html {
 
 .subscribe-line {
   padding: 30px 0;
+  padding-top: 150px;
 }
 
 .subscribe-line .card {
@@ -19862,7 +19863,7 @@ html {
 }
 
 .blog-posts .page-header-small {
-  min-height: 70vh !important;
+  min-height: 90vh !important;
 }
 
 .blog-posts .main-raised {

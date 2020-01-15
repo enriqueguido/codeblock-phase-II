@@ -260,7 +260,7 @@
             </div>
           </div>
           <div class="blur-hover">
-            <a href="../docs/1.0/foundation/icons.html">
+            <a href='{!! url('pages/contact'); !!}'>
               <div class="icons-container blur-item on-screen mt-5">
                   <!-- Center -->
                   <i class="icon devicon-laravel-plain"></i>

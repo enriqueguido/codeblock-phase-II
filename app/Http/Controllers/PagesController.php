@@ -9,18 +9,26 @@ class PagesController extends Controller
   // Render Home page
   public function index()
   {
-    return View::make('home/index');
+    return view('home/index');
   }
 
   // Render About Me page
-  public fuction about()
+  public function about()
   {
-    return View:make('pages/about-me');
+    return view('pages/about-me');
+  }
+
+  // Render Blog page
+  public function blog()
+  {
+    return view('pages/blog-posts');
   }
 
   // Render Contact page
-  public fucntion contact()
+
+  function contact()
   {
-    return View:make('pages/contact');
+    return view('pages/contact');
   }
+
 }

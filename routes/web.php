@@ -23,9 +23,9 @@ Route::get('pages/contact-us', function () {
   return view('pages/contact-us');
 });
 
-Route::get('pages/contact', function () {
-  return view('pages/contact');
-});
+Route::get('pages/contact', 'PagesController@contact');
+
+Route::post('sendemail/send', 'SendEmailController@send');
 
 Route::get('pages/blog-posts', function () {
   return view('pages/blog-posts');

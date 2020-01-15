@@ -80,7 +80,33 @@
          <div class="card card-contact card-raised">
            <div class="row">
              <div class="col-md-8">
-               <form role="form" class="p-3" id="contact-form" method="post">
+  <!-- =================== Display error message if contact form is not filled out completely ================== -->
+               <?php if (count($errors) > 0): ?>
+                <div class="alert alert-warning alert-with-icon contact-alert-margin">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="tim-icons icon-simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="tim-icons icon-support-17"></span>
+  <!--================ Show error for each section that is not filled out and end loop ======================== -->
+                  <?php foreach ($errors->all() as $error): ?>
+                    <strong> {{ $error }} </strong>
+                  <?php endforeach; ?>
+                </div>
+               <?php endif; ?>
+  <!-- ======== Show success message if all areas of form are filled out and message was send out ========= -->
+               <?php if ($message = Session::get('success')): ?>
+                <div class="alert alert-success alert-with-icon contact-alert-margin">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="success" aria-label="Close">
+                      <i class="tim-icons icon-simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="tim-icons icon-support-17"></span>
+                  <strong> {{ $message }} </strong>
+                </div>
+               <?php endif; ?>
+  <!-- ========================= Contact Form ============================== -->
+
+               <form role="form" class="p-3" id="contact-form" method="post" action="{{ url('sendemail/send') }}">
+                 {{ csrf_field() }}
                  <div class="card-header">
                    <h4 class="card-title">Send me a message</h4>
                  </div>
@@ -92,7 +118,7 @@
                          <div class="input-group-prepend">
                            <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
                          </div>
-                         <input type="text" class="form-control" placeholder="First Name..." aria-label="First Name...">
+                         <input type="text" class="form-control" name="firstname" placeholder="First Name..." aria-label="First Name...">
                        </div>
                      </div>
                      <div class="col-md-6">
@@ -102,7 +128,7 @@
                            <div class="input-group-prepend">
                              <span class="input-group-text"><i class="tim-icons icon-caps-small"></i></span>
                            </div>
-                           <input type="text" class="form-control" placeholder="Last Name..." aria-label="Last Name...">
+                           <input type="text" class="form-control" name="lastname" placeholder="Last Name..." aria-label="Last Name...">
                          </div>
                        </div>
                      </div>
@@ -113,29 +139,30 @@
                        <div class="input-group-prepend">
                          <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
                        </div>
-                       <input type="text" class="form-control" placeholder="Email Here...">
+                       <input type="text" class="form-control" name="email" placeholder="Email Here...">
                      </div>
                    </div>
                    <div class="form-group">
                      <label>Your message</label>
-                     <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                     <textarea name="message" class="form-control" name="message" id="message" rows="6"></textarea>
                    </div>
                    <div class="row">
                      <div class="col-md-6">
                        <div class="form-check">
                          <label class="form-check-label">
-                           <input class="form-check-input" type="checkbox">
+                           <input class="form-check-input" type="checkbox" name="checkbot">
                            <span class="form-check-sign"></span>
                            I'm not a robot
                          </label>
                        </div>
                      </div>
                      <div class="col-md-6">
-                       <button type="submit" class="btn btn-primary btn-primary-contact btn-round pull-right">Send Message</button>
+                       <button type="submit" name="send" value"Send" class="btn btn-primary btn-primary-contact btn-round pull-right">Send Message</button>
                      </div>
                    </div>
                  </div>
                </form>
+   <!-- =================== End of contact form =========================== -->
              </div>
              <div class="col-md-4">
                <div class="info text-left bg-info">
