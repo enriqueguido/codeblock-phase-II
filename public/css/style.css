@@ -419,6 +419,10 @@
     font-size: 3.8rem;
     margin: 12px;
   }
+
+  .x-margin {
+    padding-left: 15px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -551,4 +555,21 @@
 
 .contact-alert-margin {
   margin: 10px;
+}
+
+.cb-alert-icon {
+  display: block;
+  left: 19px;
+  position: absolute;
+  top: 48%;
+  margin-top: -11px;
+  /* margin-bottom: 15px; */
+}
+
+.cb-alert-icon-success {
+  display: block;
+  left: 15px;
+  position: absolute;
+  top: 43%;
+  margin-top: -11px;
 }

@@ -80,31 +80,34 @@
          <div class="card card-contact card-raised">
            <div class="row">
              <div class="col-md-8">
+
   <!-- =================== Display error message if contact form is not filled out completely ================== -->
                <?php if (count($errors) > 0): ?>
-                <div class="alert alert-warning alert-with-icon contact-alert-margin">
+                <div class="alert alert-danger alert-with-icon contact-alert-margin">
                   <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
                     <i class="tim-icons icon-simple-remove"></i>
                   </button>
-                  <span data-notify="icon" class="tim-icons icon-support-17"></span>
+                  <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
+                  <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
   <!--================ Show error for each section that is not filled out and end loop ======================== -->
                   <?php foreach ($errors->all() as $error): ?>
-                    <strong> {{ $error }} </strong>
+                    <span> {{ $error }} </span>
                   <?php endforeach; ?>
                 </div>
                <?php endif; ?>
   <!-- ======== Show success message if all areas of form are filled out and message was send out ========= -->
                <?php if ($message = Session::get('success')): ?>
                 <div class="alert alert-success alert-with-icon contact-alert-margin">
-                  <button type="button" aria-hidden="true" class="close" data-dismiss="success" aria-label="Close">
-                      <i class="tim-icons icon-simple-remove"></i>
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="tim-icons icon-simple-remove"></i>
                   </button>
-                  <span data-notify="icon" class="tim-icons icon-support-17"></span>
-                  <strong> {{ $message }} </strong>
+                  <!-- <span data-notify="icon" class="tim-icons icon-bell-55"></span> -->
+                  <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
+                  <span> {{ $message }} </span>
                 </div>
                <?php endif; ?>
-  <!-- ========================= Contact Form ============================== -->
 
+  <!-- ========================= Contact Form ============================== -->
                <form role="form" class="p-3" id="contact-form" method="post" action="{{ url('sendemail/send') }}">
                  {{ csrf_field() }}
                  <div class="card-header">
@@ -163,6 +166,7 @@
                  </div>
                </form>
    <!-- =================== End of contact form =========================== -->
+
              </div>
              <div class="col-md-4">
                <div class="info text-left bg-info">
