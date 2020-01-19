@@ -13,6 +13,7 @@ class SendEmailController extends Controller
   function send(Request $request)
   {
     // Require to validate all contact form fields
+
     $this->validate($request, [
       'firstname'   =>  'required',
       'lastname'    =>  'required',
@@ -20,7 +21,9 @@ class SendEmailController extends Controller
       'message'     =>  'required',
       'checkbot'    =>  'required'
     ]);
+
     // Data array for form fields
+
     $data = array(
       'firstname' => $request->firstname,
       'lastname'  => $request->lastname,
@@ -31,5 +34,6 @@ class SendEmailController extends Controller
     Mail::to('codeblock.life@gmail.com')->send(new SendMail($data));
 
     return back()->with('success', 'Thank you for contacting me! I will get back to you shortly');
+
   }
 }

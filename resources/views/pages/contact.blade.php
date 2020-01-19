@@ -108,7 +108,7 @@
                <?php endif; ?>
 
   <!-- ========================= Contact Form ============================== -->
-               <form role="form" class="p-3" id="contact-form" method="post" action="{{ url('sendemail/send') }}">
+               <form role="form" class="p-3" id="contact-form" method="POST" action="{{ url('sendemail/send') }}">
                  {{ csrf_field() }}
                  <div class="card-header">
                    <h4 class="card-title">Send me a message</h4>

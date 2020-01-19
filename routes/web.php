@@ -11,22 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home/index');
-});
+Route::get('/', 'PagesController@index');
 
-Route::get('pages/about-me', function () {
-    return view('pages/about-me');
-});
-
-Route::get('pages/contact-us', function () {
-  return view('pages/contact-us');
-});
+Route::get('pages/about-me', 'PagesController@about');
 
 Route::get('pages/contact', 'PagesController@contact');
 
 Route::post('sendemail/send', 'SendEmailController@send');
 
-Route::get('pages/blog-posts', function () {
-  return view('pages/blog-posts');
-});
+Route::get('pages/blog-posts', 'PagesController@blog');

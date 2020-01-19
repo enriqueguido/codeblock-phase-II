@@ -546,18 +546,44 @@
               </div>
               <div class="card card-raised card-form-horizontal">
                 <div class="card-body">
-                  <form method="" action="">
+      <!-- =================== Display error message if contact form is not filled out completely ================== -->
+                   <?php if (count($errors) > 0): ?>
+                    <div class="alert alert-danger alert-with-icon contact-alert-margin">
+                      <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                        <i class="tim-icons icon-simple-remove"></i>
+                      </button>
+                      <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
+                      <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
+      <!--================ Show error for each section that is not filled out and end loop ======================== -->
+                      <?php foreach ($errors->all() as $error): ?>
+                        <span> {{ $error }} </span>
+                      <?php endforeach; ?>
+                    </div>
+                   <?php endif; ?>
+      <!-- ======== Show success message if all areas of form are filled out and message was send out ========= -->
+                   <?php if ($message = Session::get('success-subscribe')): ?>
+                    <div class="alert alert-success alert-with-icon contact-alert-margin">
+                      <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                        <i class="tim-icons icon-simple-remove"></i>
+                      </button>
+                      <!-- <span data-notify="icon" class="tim-icons icon-bell-55"></span> -->
+                      <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
+                      <span> {{ $message }} </span>
+                    </div>
+                   <?php endif; ?>
+                  <form role="form" method="POST" action="{{ url('subscribe/send') }}">
+                    {{ csrf_field() }}
                     <div class="row">
                       <div class="col-sm-8">
                         <div class="input-group">
                           <div class="input-group-prepend">
                             <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
                           </div>
-                          <input type="email" class="form-control" placeholder="Your Email...">
+                          <input type="text" class="form-control" name="email" placeholder="Your Email...">
                         </div>
                       </div>
                       <div class="col-sm-4">
-                        <button type="button" class="btn btn-primary-contact btn-block">Subscribe</button>
+                        <button type="submit" name="subscribe" value"Send" class="btn btn-primary-contact btn-block">Subscribe</button>
                       </div>
                     </div>
                   </form>
