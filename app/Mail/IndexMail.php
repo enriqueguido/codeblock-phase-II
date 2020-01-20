@@ -7,20 +7,18 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class SubscribeMail extends Mailable
+class IndexMail extends Mailable
 {
     use Queueable, SerializesModels;
-
-    public $subscribeData;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($subscribeData)
+    public function __construct()
     {
-        $this->subscribeData = $subscribeData;
+        //
     }
 
     /**
@@ -30,8 +28,6 @@ class SubscribeMail extends Mailable
      */
     public function build()
     {
-      // Return subscribe email view template with user data
-      return
-        $this->from('info@codeblock.life')->subject('New Subscription')->view('email/subscribe-email-template')->with('subscribeData', $this->subscribeData);
+        return $this->view('view.name');
     }
 }
