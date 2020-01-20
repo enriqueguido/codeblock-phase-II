@@ -9,11 +9,10 @@ use App\Mail\SendMail;
 class SendEmailController extends Controller
 {
   // Send method for email form
-
   function send(Request $request)
   {
-    // Require to validate all contact form fields
 
+    // Require to validate all contact form fields
     $this->validate($request, [
       'firstname'   =>  'required',
       'lastname'    =>  'required',
@@ -23,7 +22,6 @@ class SendEmailController extends Controller
     ]);
 
     // Data array for form fields
-
     $data = array(
       'firstname' => $request->firstname,
       'lastname'  => $request->lastname,
@@ -31,8 +29,10 @@ class SendEmailController extends Controller
       'message'   => $request->message
     );
 
+    // Create new contact form message with all fields from $data & mail to email address
     Mail::to('codeblock.life@gmail.com')->send(new SendMail($data));
 
+    //  Display Success message to user
     return back()->with('success', 'Thank you for contacting me! I will get back to you shortly');
 
   }

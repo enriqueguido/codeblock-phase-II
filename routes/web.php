@@ -20,3 +20,5 @@ Route::get('pages/contact', 'PagesController@contact');
 Route::post('sendemail/send', 'SendEmailController@send');
 
 Route::get('pages/blog-posts', 'PagesController@blog');
+
+Route::post('subscribe/send', 'SubscribeController@send');

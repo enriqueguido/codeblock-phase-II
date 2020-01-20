@@ -583,7 +583,7 @@
                         </div>
                       </div>
                       <div class="col-sm-4">
-                        <button type="submit" name="subscribe" value"Send" class="btn btn-primary-contact btn-block">Subscribe</button>
+                        <button type="submit" name="send" value"Send" class="btn btn-primary-contact btn-block">Subscribe</button>
                       </div>
                     </div>
                   </form>
