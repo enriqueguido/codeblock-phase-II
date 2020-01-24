@@ -479,9 +479,7 @@
     <div class="col-md-8 ml-auto mr-auto text-center mt-4">
       <h3 class="title">Interested in hiring me?</h3>
       <h4 class="description mb-5">If you got questions about my projects or need assitance with any of your projects feel free to contact me at any time. I'm here to help!</h4>
-      <div href='{!! url('pages/contact'); !!}'>
-          <button type="submit" class="btn btn-primary btn-primary-contact btn-round btn-lg mrgn-bot-about">Contact me</button>
-      </div>
+      <a type="submit" href='{!! url('pages/contact'); !!}' class="btn btn-primary btn-primary-contact btn-round btn-lg mrgn-bot-about">Contact me</a>
     </div>
   </div>
 

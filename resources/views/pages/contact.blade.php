@@ -74,7 +74,7 @@
      <div class="row">
        <div class="col-md-5 contact-map-title">
          <h1 class="title">Keep in Touch</h1>
-         <h4 class="description text-white">Would you like to hire me? <br> Please contact me to find out more.</h4>
+         <h4 class="description text-white">Have a question about what I can build? <br> Please contact me to find out more.</h4>
        </div>
        <div class="col-md-12 m-auto">
          <div class="card card-contact card-raised">

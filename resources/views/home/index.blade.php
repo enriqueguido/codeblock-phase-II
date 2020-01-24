@@ -345,7 +345,7 @@
                         Sparkly LLC is a cleaning company servecing the South Florida area. The owners of Sparkly requested design work consisting of the company logo, custome business cards, promotional marketing material, and a website. Contact me or click on the project to find out more.
                       </div>
                       <div class="footer">
-                        <a href="javascript:;" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/enriqueguido/sparkly_laravel_website" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
                         <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
@@ -375,7 +375,7 @@
                         Wellcare is a landing page build on laravels framework and design around the idea of a physician to create a unique pediatrics concierge medical practice. Please contact me or click on the project to find out more.
                       </div>
                       <div class="footer">
-                        <a href="javascript:;" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/enriqueguido/WellCare" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
@@ -404,7 +404,7 @@
                         Wobblee is a sobriety test game where information is gathered about the user and timed random green bubbles are pop to calculate the reaction time to suggest if they had one too many alchoholic beveragegs. Contact me or click on the project to find out more.
                       </div>
                       <div class="footer">
-                        <a href="javascript:;" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/galinap684/Wobblee-App" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
@@ -433,7 +433,7 @@
                         Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events and connects them to those attending it.
                       </div>
                       <div class="footer">
-                        <a href="javascript:;" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/enriqueguido/with_me" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
@@ -462,7 +462,7 @@
                         KeddyMe is a startup company in the state of NY that is working on the creation of a mood based search engine. Through our parnership I assisted the founders with creative work such as company logo &amp; others. Please visit the projects' page or contact me to find out more.
                       </div>
                       <div class="footer">
-                        <a href="javascript:;" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="javascript:;" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
