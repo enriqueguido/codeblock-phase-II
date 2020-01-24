@@ -29,7 +29,7 @@
       </div>
       <ul class="navbar-nav ml-auto">
         <li class="dropdown nav-item">
-          <a href='{!! url('/'); !!}' class="nav-link">
+          <a href='{!! url('index'); !!}' class="nav-link">
             <!-- <i class="fa tim-icons icon-components d-lg-none d-xl-none"></i> Home -->
             <i class="fa tim-icons icon-components"></i> Home
           </a>

@@ -11,7 +11,12 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
+// Route::get('/', 'PagesController@index');
+
+// Route::post('index/send', 'IndexEmailController@send');
+Route::get('index', 'IndexController@index');
+
+Route::post('index/send', 'IndexController@send');
 
 Route::get('pages/about-me', 'PagesController@about');
 

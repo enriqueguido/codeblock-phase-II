@@ -573,3 +573,22 @@
   top: 43%;
   margin-top: -11px;
 }
+
+.index-alert {
+  margin-bottom: -15%;
+}
+
+.btn-index-hover:hover,
+.btn-index-hover:focus,
+.btn-index-hover:active,
+.btn-index-hover:not(:disabled):not(.disabled):active {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none;
+}
+
+.btn-info.btn-simple.active {
+  border-color: #ffffff !important;
+}

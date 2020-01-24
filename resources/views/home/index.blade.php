@@ -487,7 +487,6 @@
 
   <!-- ================ Project Slide End ===================== -->
 
-
     <!-- =================== Email Section ==================== -->
     <div class="header header-5">
       <div class="page-header page-header-sec email-contact-sec">
@@ -501,15 +500,44 @@
                 <!-- </div> -->
               <!-- </div> -->
               <h2 class="title text-left">Lets build something awesome together! Contact me to find out how.</h2>
-              <div class="input-group">
-                <input type="text" class="form-control input-border-blue" placeholder="Enter your email here and I will contact you">
-                <div class="input-group-append">
-                  <span class="input-group-text input-border-blue"><i class="tim-icons icon-lock-circle"></i></span>
-                </div>
+<!-- =================== Display error message if contact form is not filled out completely ================== -->
+             <?php if (count($errors) > 0): ?>
+              <div class="alert alert-danger alert-with-icon index-alert">
+                <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                  <i class="tim-icons icon-simple-remove"></i>
+                </button>
+                <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
+                <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
+<!--================ Show error for each section that is not filled out and end loop ======================== -->
+                <?php foreach ($errors->all() as $error): ?>
+                  <span> {{ $error }} </span>
+                <?php endforeach; ?>
               </div>
-              <a class="btn btn-info btn-simple btn-icon" href="">
-                <i class="tim-icons icon-send"></i>
-              </a>
+             <?php endif; ?>
+ <!-- ======== Show success message if all areas of form are filled out and message was send out ========= -->
+              <?php if ($message = Session::get('index')): ?>
+               <div class="alert alert-success alert-with-icon index-alert">
+                 <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                   <i class="tim-icons icon-simple-remove"></i>
+                 </button>
+                 <!-- <span data-notify="icon" class="tim-icons icon-bell-55"></span> -->
+                 <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
+                 <span> {{ $message }} </span>
+               </div>
+              <?php endif; ?>
+
+              <form role="form" method="post" action="{{ url('index/send') }}">
+                {{ csrf_field() }}
+                <div class="input-group">
+                  <input type="text" name="email" class="form-control input-border-blue" placeholder="Enter your email here and I will contact you">
+                  <div class="input-group-append">
+                    <span class="input-group-text input-border-blue"><i class="tim-icons icon-lock-circle"></i></span>
+                  </div>
+                </div>
+                <button type="submit" name="send" value"Send" class="btn btn-info btn-simple btn-icon btn-index-hover">
+                  <i class="tim-icons icon-send"></i>
+                </button>
+              </form>
             </div>
             <div class="col-lg-4 ml-auto text-center">
               <div class="phone-container">

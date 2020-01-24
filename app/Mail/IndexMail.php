@@ -11,14 +11,16 @@ class IndexMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $indexData;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($indexData)
     {
-        //
+      $this->indexData = $indexData;
     }
 
     /**
@@ -28,6 +30,8 @@ class IndexMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+      // Return subscribe email view template with user data
+      return
+        $this->from('info@codeblock.life')->subject('New Homepage Customer Inquiry')->view('email/index-email-template')->with('indexData', $this->indexData);
     }
 }

@@ -26,5 +26,6 @@ class SubscribeController extends Controller
 
     // Display success mesage to user
     return back()->with('success-subscribe', 'Thank you for subscribing! A new blog post will be coming soon.');
+
   }
 }
