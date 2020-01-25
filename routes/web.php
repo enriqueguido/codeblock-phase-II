@@ -14,7 +14,7 @@
 // Route::get('/', 'PagesController@index');
 
 // Route::post('index/send', 'IndexEmailController@send');
-Route::get('index', 'IndexController@index');
+Route::get('/', 'IndexController@index');
 
 Route::post('index/send', 'IndexController@send');
 
