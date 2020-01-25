@@ -32,6 +32,6 @@ class SubscribeMail extends Mailable
     {
       // Return subscribe email view template with user data
       return
-        $this->from('info@codeblock.life')->subject('New Subscription')->view('email/subscribe-email-template')->with('subscribeData', $this->subscribeData);
+        $this->from('codeblock.life@gmail.com')->subject('New Subscription')->view('email/subscribe-email-template')->with('subscribeData', $this->subscribeData);
     }
 }

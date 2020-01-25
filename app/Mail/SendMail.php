@@ -32,6 +32,6 @@ class SendMail extends Mailable
     {
         // Return dynamic email view template with user data
       return
-        $this->from('info@codeblock.life')->subject('New Customer Enquiry')->view('email/dynamic-email-template')->with('data', $this->data);
+        $this->from('codeblock.life@gmail.com')->subject('New Customer Enquiry')->view('email/dynamic-email-template')->with('data', $this->data);
     }
 }

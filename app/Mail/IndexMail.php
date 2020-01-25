@@ -32,6 +32,6 @@ class IndexMail extends Mailable
     {
       // Return subscribe email view template with user data
       return
-        $this->from('info@codeblock.life')->subject('New Homepage Customer Inquiry')->view('email/index-email-template')->with('indexData', $this->indexData);
+        $this->from('codeblock.life@gmail.com')->subject('New Homepage Customer Inquiry')->view('email/index-email-template')->with('indexData', $this->indexData);
     }
 }

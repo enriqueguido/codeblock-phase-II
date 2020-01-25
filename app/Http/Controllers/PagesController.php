@@ -6,12 +6,6 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-  // Render Home page
-  // 
-  // public function index()
-  // {
-  //   return view('home/index');
-  // }
 
   // Render About Me page
 
