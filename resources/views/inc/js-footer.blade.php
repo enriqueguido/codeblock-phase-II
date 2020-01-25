@@ -26,7 +26,7 @@
 <!--  Google Maps Plugin    -->
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3qD6RR7pzDmHR5jXZVK7JfdwjxTx7QP8&callback=initMap"></script>  -->
 <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
-<script src="../js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
+<script src="../js/cb-design.min.js?v=1.0.0" type="text/javascript"></script>
 <script>
   $(document).ready(function() {
     blackKit.initDatePicker();

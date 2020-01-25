@@ -4,7 +4,7 @@
  * Blk• Design System Pro - v1.0.0
  =========================================================
 
- * Product Page: https://www.creative-tim.com/product/blk-design-system-pro
+ * Product Page: https://www.creative-tim.com/product/cb-design
  * Copyright 2019 Creative Tim (http://www.creative-tim.com)
 
  * Coded by www.creative-tim.com

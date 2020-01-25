@@ -15,7 +15,7 @@
   <!-- Nucleo Icons -->
   <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="../assets/css/blk-design-system-pro.css?v=1.0.0" rel="stylesheet" />
+  <link href="../assets/css/cb-design.css?v=1.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 </head>
@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-lg  fixed-top navbar-transparent " color-on-scroll="300">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/blk-design-system-pro/index.html" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+        <a class="navbar-brand" href="https://demos.creative-tim.com/cb-design/index.html" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
           <span>BLK•</span> Design System PRO
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
               <a href="../presentation.html" class="dropdown-item">
                 <i class="tim-icons icon-bullet-list-67"></i>Presentation Page
               </a>
-              <a href="https://demos.creative-tim.com/blk-design-system-pro/docs/1.0/getting-started/overview.html" class="dropdown-item">
+              <a href="https://demos.creative-tim.com/cb-design/docs/1.0/getting-started/overview.html" class="dropdown-item">
                 <i class="tim-icons icon-book-bookmark"></i>Documentation
               </a>
             </div>
@@ -173,7 +173,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-sm btn-default" href="https://www.creative-tim.com/product/blk-design-system-pro" target="_blank">
+            <a class="nav-link btn btn-sm btn-default" href="https://www.creative-tim.com/product/cb-design" target="_blank">
               <p>Buy Now</p>
             </a>
           </li>
@@ -315,7 +315,7 @@
   <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <script src="../assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
+  <script src="../assets/js/cb-design.min.js?v=1.0.0" type="text/javascript"></script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
   <script>
     window.TrackJS &&

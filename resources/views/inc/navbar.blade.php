@@ -40,7 +40,7 @@
             <a href="./presentation.html" class="dropdown-item">
               <i class="tim-icons icon-bullet-list-67"></i>Presentation Page
             </a>
-            <a href="https://demos.creative-tim.com/blk-design-system-pro/docs/1.0/getting-started/overview.html" class="dropdown-item">
+            <a href="https://demos.creative-tim.com/cb-design/docs/1.0/getting-started/overview.html" class="dropdown-item">
               <i class="tim-icons icon-book-bookmark"></i>Documentation
             </a>
           </div> -->
