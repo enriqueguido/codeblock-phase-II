@@ -30,7 +30,7 @@ class IndexController extends Controller
 
 
     // Create new contact form message with all fields from $data & mail to email address
-    Mail::to('guido.m.enrique@gmail.com')->send(new IndexMail($indexData));
+    Mail::to('codeblock.life@gmail.com')->send(new IndexMail($indexData));
 
     //  Display Success message to user
     return back()->with('index', 'Thank you for contacting me! I will get back to you shortly');
