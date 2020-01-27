@@ -22,7 +22,7 @@ class SubscribeController extends Controller
     );
 
     // Create new subscription email from $subscribeData & mail it to email address
-    Mail::to('codeblock.life@gmail.com')->send(new SubscribeMail($subscribeData));
+    Mail::to('guido.m.enrique@gmail.com')->send(new SubscribeMail($subscribeData));
 
     // Display success mesage to user
     return back()->with('success-subscribe', 'Thank you for subscribing! A new blog post will be coming soon.');
