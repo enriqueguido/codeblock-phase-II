@@ -198,7 +198,7 @@
                    </div>
                    <div class="description">
                      <h5 class="info-title">
-                       info@codeblock.life
+                       info@codeblockapps.com
                      </h5>
                    </div>
                  </div>
