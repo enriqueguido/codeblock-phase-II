@@ -30,7 +30,7 @@ class SendEmailController extends Controller
     );
 
     // Create new contact form message with all fields from $data & mail to email address
-    Mail::to('enrique.guido@yahoo.com')->send(new SendMail($data));
+    Mail::to('guido.m.enrique@gmail.com')->send(new SendMail($data));
 
     //  Display Success message to user
     return back()->with('success', 'Thank you for contacting me! I will get back to you shortly');
