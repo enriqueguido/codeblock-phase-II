@@ -54,7 +54,7 @@
             <a class="dropdown-item" href="https://salty-atoll-75507.herokuapp.com/" target="_blank">
               <i class="tim-icons icon-app"></i> WellCare
             </a>
-            <a class="dropdown-item" href="https://www.sparklyhouse.com" target="_blank">
+            <a class="dropdown-item" href="https://www.sparklyhouse.co" target="_blank">
               <i class="tim-icons icon-key-25"></i> Sparkly
             </a>
             <a class="dropdown-item" href="https://github.com/enriqueguido/with_me" target="_blank">
