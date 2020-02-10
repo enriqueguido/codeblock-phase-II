@@ -40,8 +40,8 @@
         <div class="col-lg-6 col-md-6">
           <h1 class="profile-title text-left profile-name-align">Who I am</h1>
           <h5 class="text-on-back">01</h5>
-          <p class="profile-description">I was born in Buenos Aires, Argentina and currently residing in Tamarac, FLorida. A tech lover at heart with an analylitcal mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals. Professional and industry knowledgable.
-          I am dedicated and committed to perfecting my craft, ambitious, driven, and results oriented. I love problem solving and finding fixes with technology.</p>
+          <p class="profile-description">I was born in Buenos Aires, Argentina and currently residing in Tamarac, Florida. A tech lover at heart with an analytical mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals. Professional and industry knowledgeable. 
+            I am dedicated and committed to perfecting my craft, ambitious, driven, and results oriented. I love problem solving and finding fixes with technology.</p>
           <div class="btn-wrapper profile pt-3 pad-wrapper">
             <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
               <i class="fab fa-twitter"></i>
@@ -139,7 +139,7 @@
                 <div class="tab-pane" id="linkb">
                   <div class="row">
                     <div class="about-me-pm-text">
-                      I have taken on paid projects which give me not only the ooportunity to build the site but gain experience in contract negotiation and managed the project for its entirety. I am well versed in Agile Methodology, Lean Startup Methodology, weekly sprint schedules, standup meetings, user stories, acceptance criterias, and many modern project management tools like Jira, Slack, Google suites and much more. Contact me to find out more!
+                      I have taken on paid projects which give me not only the opportunity to build the site, but gain experience in contract negotiation and managed the project in its entirety. I am well versed in Agile Methodology, Lean Startup Methodology, weekly sprint schedules, standup meetings, user stories, acceptance criteria, and many modern project management tools like Jira, Slack, Google suite, &amp; much more. Contact me to find out more!
                     </div>
                     <!-- <label class="col-sm-3 col-form-label">Name</label>
                     <div class="col-sm-9">
@@ -182,7 +182,7 @@
          <div class="col-md-5">
            <h1 class="profile-name-align text-left">Why choose me</h1>
            <h5 class="text-on-back">02</h5>
-           <p class="profile-description text-left">I have gained a diverse set of skills in both business and the IT world along with sound knowledge of several programming languages/frameworks which help me attain hands on experience developing web applications. I pride myself on having excellent communication skills helping me to work well among diverse teams and allowing me to explain complex technical concepts in layman terms briding the gap between business and IT. I have learn databased design and development along with the ability to develop graphical user interfaces. I can do custome design work for any of your projects utilizing Adobe suite tools like Photoshop and Illustrator.</p>
+           <p class="profile-description text-left">I have gained a diverse set of skills in both business and the IT world along with sound knowledge of several programming languages/frameworks which help me attain hands on experience developing web applications. I pride myself on having excellent communication skills, helping me to work well among diverse teams and allowing me to explain complex technical concepts in layman terms bridging the gap between business and IT. I have learned database design and development along with the ability to develop graphical user interfaces. I can do custom design work for any of your projects utilizing Adobe suite tools like Photoshop and Illustrator.</p>
            <!-- <div class="btn-wrapper pt-3">
              <button href="javascript:void(0)" class="btn btn-simple btn-primary">
                <i class="tim-icons icon-book-bookmark"></i> Bookmark
@@ -246,7 +246,7 @@
                     <div class="author">
                       <span>MDVIP Project Manager</span>
                       <div class="about-me-work">
-                        Currently employed as a Project Manager where I work with stakeholders and executives to understand and analyze projects requirements, and manage projects from beginning to end while ensuring that the projects get accomplish within its due time, budget, and scope. Perform business analyst functions depending on size of the project or requirements.
+                        Currently employed as a Project Manager where I work with stakeholders and executives to understand and analyze project requirements, and manage projects from beginning to end while ensuring that the projects get accomplished within its due time, budget, and scope. Perform business analyst functions depending on the size of the project or requirements.
                       </div>
                     </div>
                   </div>
@@ -264,7 +264,7 @@
                       <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
                       <span>CISR Agent</span>
                       <div class="about-me-work">
-                        Acquired a CISR designation in the insurance industry, and worked closely with team leaders to process endorsements and/or changes within approved authority level and perform transactions according to the latest corporate standards, manual rates, guidelines and procedures.
+                        Acquired a CISR designation in the insurance industry, and worked closely with team leaders to process endorsements and/or changes within the approved authority level and perform transactions, according to the latest corporate standards, manual rates, guidelines and procedures.
                       </div>
                     </div>
                   </div>
@@ -282,7 +282,7 @@
                       <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
                       <span>PNC Bank Backup Teller Supervisor</span>
                       <div class="about-me-work">
-                        At PNC BANK I was a Back-Up Teller Supervisor in a DeNovo Branch. I was in charge of various tasks that ranged from full control of the banks vault, the bank’s ATM’s and all of its corresponding duties, deposits and withdrawal, opening and closing functions, and calling prospective clients as well as businesses for future partnerships.
+                        At PNC BANK I was a Back-Up Teller Supervisor in a DeNovo Branch. I was in charge of various tasks that ranged from full control of the bank vault, the bank’s ATM’s and all of its corresponding duties, deposits and withdrawal, opening and closing functions, and calling prospective clients as well as businesses for future partnerships.
                       </div>
                     </div>
                   </div>
@@ -300,7 +300,7 @@
                       <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
                       <span>Bank of America Teller</span>
                       <div class="about-me-work">
-                        At Bank of America I was a Teller and always met and surpass performance and sales goals, mantained cash accuracy, made deposits and withdrawals, CTR’s, and currency exchanges, while making each customer feel valued, important and deserving of the best service possible.
+                        At Bank of America I was a Teller and always met and surpass performance and sales goals, maintained cash accuracy, made deposits and withdrawals, CTR’s, and currency exchanges, while making each customer feel valued, important and deserving of the best service possible.
                       </div>
                     </div>
                   </div>
@@ -318,7 +318,7 @@
                       <!-- <img src="assets/img/Tim.png" alt="..." class="avatar img-raised"> -->
                       <span>Startup</span>
                       <div class="about-me-work">
-                        Won Palm Beach Startup Weekend 2015, attended FAU startup bootcamp, have learned lean startup methedologies and took part in several projects that give me unique experiences and knowledge that can not be thought in the classroom. I have worked with CEO's/Founders to turn  their ideas into creative work and worked closely with them to design pitch decks, busienss plans, and assisted in several other stages of their business.
+                        Won Palm Beach Startup Weekend 2015, attended FAU startup bootcamp, have learned lean startup methedologies and took part in several projects that give me unique experiences and knowledge that can not be thought in the classroom. I have worked with CEO's/Founders to turn their ideas into creative work and worked closely with them to design pitch decks, busienss plans, and assisted in several other stages of their business.
                       </div>
                     </div>
                   </div>
@@ -478,7 +478,7 @@
   <div class="row">
     <div class="col-md-8 ml-auto mr-auto text-center mt-4">
       <h3 class="title">Interested in hiring me?</h3>
-      <h4 class="description mb-5">If you got questions about my projects or need assitance with any of your projects feel free to contact me at any time. I'm here to help!</h4>
+      <h4 class="description mb-5">If you got questions about my projects or need assitance with any work feel free to contact me at any time. <br> I'm here to help!</h4>
       <a type="submit" href='{!! url('pages/contact'); !!}' class="btn btn-primary btn-primary-contact btn-round btn-lg mrgn-bot-about">Contact me</a>
     </div>
   </div>

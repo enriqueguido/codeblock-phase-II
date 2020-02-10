@@ -197,9 +197,9 @@
               <div class="pl-md-5">
                 <h1>Project
                   <br/>Management</h1>
-                <p>Acquired hands-on experience as a project managers and work with stakeholders and executives to understand and analyze projects requirements, and manage projects from beginning to end while ensuring that the projects get accomplish within its due time, budget, and scope</p>
+                <p>Acquired hands-on experience as a project manager and work with stakeholders and executives to understand and analyze project requirements, and manage projects from beginning to end while ensuring that the projects get accomplished within its due time, budget, and scope.</p>
                 <br/>
-                <p>I have gain valuable experience in streamlining business processes, conflic resolution, and created Standar Operation Procedures, and traning manuals for small and mid-size companies.</p>
+                <p>I have gained valuable experience in streamlining business processes, conflict resolution, and created Standard Operation Procedures, and training manuals for small and mid-size companies.</p>
                 <br/>
                 <a href='{!! url('pages/about-me'); !!}' class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
               </div>
@@ -223,7 +223,7 @@
                   <br/>Experience</h1>
                 <p>I Have worked hand-in-hand with founders to design logos, pitch decks, business plans, financial projections, and much more.</p>
                 <br/>
-                <p>I am well verse in the Lean Start-up &amp; agiles methodologies and can help you turn your idea to a full flesh product.</p>
+                <p>I am well versed in the Lean Start-up & agile methodologies and can help you turn your idea to a full flesh product.</p>
                 <br/>
                 <a href='{!! url('pages/about-me'); !!}' class="font-weight-bold text-info mt-5">See More <i class="tim-icons icon-minimal-right text-info"></i></a>
               </div>
@@ -252,8 +252,8 @@
             <div class="col-lg-8 col-md-12 sec-margin-top">
               <h2 class="title">The Tech I Work With</h2>
               <h4 class="description">
-                I am interested in all areas of software development and allways working on new
-                . Contact me to find out what what programming languages im learning now or to know what projects I am working on.
+                I am interested in all areas of software development and allways working on new projects.
+                Contact me to find out what what programming languages im learning now or to know what projects I am working on.
               </h4>
               <div class="btn-wrapper">
               </div>
@@ -342,7 +342,7 @@
                         <strong>Framework:</strong> Laravel
                       </div>
                       <div class="description">
-                        Sparkly LLC is a cleaning company servecing the South Florida area. The owners of Sparkly requested design work consisting of the company logo, custome business cards, promotional marketing material, and a website. Contact me or click on the project to find out more.
+                        Sparkly LLC is a cleaning company servicing the South Florida area. The owners of Sparkly requested design work consisting of the company logo, custom business cards, promotional marketing material, &amp; a website. Contact me or click on the project to find out more.
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/sparkly_laravel_website" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
@@ -372,7 +372,7 @@
                         <strong>Framework:</strong> Laravel
                       </div>
                       <div class="description">
-                        Wellcare is a landing page build on laravels framework and design around the idea of a physician to create a unique pediatrics concierge medical practice. Please contact me or click on the project to find out more.
+                        Wellcare is a landing page build on Laravels framework and design around the idea of a physician to create a unique pediatrics concierge medical practice. Please contact me or click on the project to find out more.
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/WellCare" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
@@ -401,7 +401,7 @@
                         <strong>Framework:</strong> Ruby on rails
                       </div>
                       <div class="description">
-                        Wobblee is a sobriety test game where information is gathered about the user and timed random green bubbles are pop to calculate the reaction time to suggest if they had one too many alchoholic beveragegs. Contact me or click on the project to find out more.
+                        Wobble is a sobriety test game where information is gathered about the user and timed random green bubbles are popped to calculate the reaction time to suggest if they had one too many alcoholic beverages. Contact me or click on the project to find out more.
                       </div>
                       <div class="footer">
                         <a href="https://github.com/galinap684/Wobblee-App" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
@@ -430,7 +430,7 @@
                         <strong>Framework:</strong> Ruby on rails
                       </div>
                       <div class="description">
-                        Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events and connects them to those attending it.
+                        Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events &amp; connects them to those attending it.
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/with_me" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
@@ -459,7 +459,7 @@
                         <strong>Framework:</strong> N/A
                       </div>
                       <div class="description">
-                        KeddyMe is a startup company in the state of NY that is working on the creation of a mood based search engine. Through our parnership I assisted the founders with creative work such as company logo &amp; others. Please visit the projects' page or contact me to find out more.
+                        KeddyMe is a startup company in the state of NY that is working on the creation of a mood based search engine. Through our partnership I assisted the founders with creative work such as company logo &amp; others. Please contact me to find out more.
                       </div>
                       <div class="footer">
                         <a href="javascript:;" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>

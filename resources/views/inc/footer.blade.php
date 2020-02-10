@@ -6,23 +6,23 @@
         Home
       </a>
     </li>
-    <li>
+    {{-- <li>
       <a href="javascript:;">
         Portfolio
       </a>
-    </li>
+    </li> --}}
     <li>
       <a href='{!! url('pages/about-me'); !!}'>
         About Me
       </a>
     </li>
     <li>
-      <a href="javascript:;">
+      <a href='{!! url('pages/contact'); !!}'>
         Contact Me
       </a>
     </li>
     <li>
-      <a href="javascript:;">
+      <a href='{!! url('pages/blog-posts'); !!}'>
         Blog
       </a>
     </li>
