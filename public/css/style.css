@@ -592,3 +592,144 @@
 .btn-info.btn-simple.active {
   border-color: #ffffff !important;
 }
+
+.index-page .squares {
+  border-radius: 50% !important;
+}
+
+.squares.square3 {
+  height: 800px !important;
+  width: 800px !important;
+  bottom: -10% !important;
+}
+
+.squares.square5 {
+  left: 50% !important;
+  bottom: 50% !important;
+}
+
+.home-grid {
+  display: block;
+  margin-left: -20%;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: -47%;
+}
+
+.social-media-index {
+  position: absolute !important;
+  right: 60px !important;
+  z-index: 999 !important;
+  top: 38% !important;
+  -webkit-transform: translateY(-50%) !important;
+  -moz-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+  z-index: 999 !important;
+}
+
+.index-insta {
+  top: 45% !important;
+}
+
+.index-linkedin {
+  top: 52% !important;
+}
+
+.index-github {
+  top: 59% !important;
+}
+
+.fa-twitter-invert {
+    color: #55acee !important;
+}
+
+.fa-twitter-invert:hover {
+  color: #ffffff !important;
+}
+
+.twitter-invert-background {
+  background: #ffffff !important;
+}
+
+.twitter-invert-background:hover {
+  background: #55acee !important;
+}
+
+.fa-instagram-invert {
+    color: #d04da1 !important;
+}
+
+.instagram-invert-background {
+  background: #ffffff !important;
+}
+
+.fa-instagram-invert:hover {
+  color: #ffffff !important;
+}
+.instagram-invert-background:hover {
+  background: #d04da1 !important;
+}
+
+.fa-linkedin-invert {
+    color: #0077B5 !important;
+}
+
+.linkedin-invert-background {
+  background: #ffffff !important;
+}
+
+.fa-linkedin-invert:hover {
+  color: #ffffff !important;
+}
+.linkedin-invert-background:hover {
+  background: #0077B5 !important;
+}
+
+.fa-github-invert {
+    color: #333333 !important;
+}
+
+.github-invert-background {
+  background: #ffffff !important;
+}
+
+.fa-github-invert:hover {
+  color: #ffffff !important;
+}
+.github-invert-background:hover {
+  background: #333333 !important;
+}
+
+.btn-index-social {
+  height: 2.8rem !important;
+  min-width: 2.8rem !important;
+  width: 2.8rem !important;
+  font-size: 1.3rem !important;
+}
+
+/* .grid-index-animate {
+  animation-direction: alternate-reverse;
+} */
+
+.grid-index-animate  {
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+}
+.grid-index-animate  {
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.square3-img {
+  height: 90%;
+  width: 100%;
+}

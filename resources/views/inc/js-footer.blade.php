@@ -4,19 +4,19 @@
 <script src="../js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="../js/plugins/perfect-scrollbar.jquery.min.js"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="../js/plugins/bootstrap-switch.js"></script>
+<!-- <script src="../js/plugins/bootstrap-switch.js"></script> -->
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="../js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!-- <script src="../js/plugins/nouislider.min.js" type="text/javascript"></script> -->
 <!--  Plugin for the Carousel, full documentation here: http://kenwheeler.github.io/slick/ -->
 <script src="../js/plugins/slick.js" type="text/javascript"></script>
 <!--  Plugin for the blob animation -->
 <script src="../js/plugins/anime.min.js" type="text/javascript"></script>
 <!-- Chart JS -->
-<script src="../js/plugins/chartjs.min.js"></script>
+<!-- <script src="../js/plugins/chartjs.min.js"></script> -->
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="../js/plugins/moment.min.js"></script>
+<!-- <script src="../js/plugins/moment.min.js"></script> -->
 <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-<script src="../js/plugins/bootstrap-tagsinput.js"></script>
+<!-- <script src="../js/plugins/bootstrap-tagsinput.js"></script> -->
 <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
 <script src="../js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
 <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->

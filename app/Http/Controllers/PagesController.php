@@ -28,4 +28,9 @@ class PagesController extends Controller
     return view('pages/contact');
   }
 
+  function home()
+  {
+    return view('pages/home');
+  }
+
 }

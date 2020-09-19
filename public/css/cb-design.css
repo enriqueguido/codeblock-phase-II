@@ -19951,7 +19951,7 @@ html {
 .index-page .squares.square3,
 .login-page .squares.square3,
 .reset-page .squares.square3 {
-  animation: move-left-right 5s infinite;
+  animation: move-left-right 0s infinite;
   height: 200px;
   width: 200px;
   opacity: 0.1;
