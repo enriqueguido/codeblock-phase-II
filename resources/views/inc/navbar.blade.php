@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-translate">
       <a class="navbar-brand" rel="tooltip" title="Modern Web Applications Created by G.M.E" data-placement="bottom" target="_blank">
-        <img href='{!! url('/'); !!}' src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;"> <span class="white">CodeBlock</span> <div class="header-name white">Web Applications</div>
+        <img href='{!! url('/'); !!}' src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:35px;"> <div class="header-name white">Web Applications</div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-bar bar1"></span>

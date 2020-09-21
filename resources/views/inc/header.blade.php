@@ -1,9 +1,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="apple-touch-icon" sizes="76x76" href="../img/CodeBlockLogoBlue.png">
-<link rel="icon" type="image/png" href="../img/CodeBlockLogoBlue.png">
+<link rel="apple-touch-icon" sizes="30x30" href="../img/Group 17.ico">
+<link rel="icon" type="image/png" sizes="30x30" href="../img/Group 26.png">
 <title>
-  CB• Web Application By G.M.E
+  GME • Designer • Developer
 </title>
 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
