@@ -61,150 +61,113 @@
     <!-- ================ End of Background ================= -->
 
     <!-- ================ Tech Section ================== -->
-    <div class="landing-page">
-      <div class="page-header">
-        <div class="section-nucleo-icons section-nucleo-icons-mobile">
-          <img src="../img/path3.png" class="path">
-          <div class="sec-margin-top">
-            <div class="row justify-content-center">
-              <div class="col-lg-8 col-md-12 sec-margin-top">
-                <h2 class="title">The Tech I Work With</h2>
-                <h4 class="description">
-                  I am interested in all areas of software development and allways working on new projects.
-                  Contact me to find out what what programming languages im learning now or to know what projects I am working on.
-                </h4>
-                <div class="btn-wrapper">
-                </div>
-              </div>
-            </div>
-    <!-- ========================== Progress Bars ============================= -->
-            <div class="left-progress">
-              <div class="progress-container progress-success progress-index">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress-container progress-success progress-index">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress-container progress-success progress-index">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress-container progress-success progress-index">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="right-progress">
-              <div class="progress-container progress-success progress-index-right">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress-container progress-success progress-index-right">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress-container progress-success progress-index-right">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress-container progress-success progress-index-right">
-                <span class="progress-badge">Success</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-    <!-- ========================== Progress Bars End ============================= -->
-            <!-- <div class="blur-hover">
-              <a href='{!! url('pages/contact'); !!}'>
-                <div class="icons-container blur-item on-screen mt-5"> -->
-                    <!-- Center -->
-                    <!-- <i class="icon devicon-laravel-plain"></i> -->
-                    <!-- Right 1 -->
-                    <!-- <i class="icon icon-sm devicon-bootstrap-plain"></i>
-                    <i class="icon icon-sm devicon-css3-plain-wordmark"></i>
-                    <i class="icon icon-sm devicon-html5-plain"></i> -->
-                    <!-- Right 2 -->
-                    <!-- <i class="icon devicon-postgresql-plain"></i>
-                    <i class="icon devicon-jquery-plain"></i>
-                    <i class="icon devicon-heroku-original"></i> -->
-                    <!-- Left 1 -->
-                    <!-- <i class="icon icon-sm devicon-ruby-plain"></i>
-                    <i class="icon icon-sm devicon-rails-plain"></i>
-                    <i class="icon icon-sm devicon-git-plain"></i> -->
-                    <!-- Left 2 -->
-                    <!-- <i class="icon devicon-github-plain"></i>
-                    <i class="icon devicon-javascript-plain"></i>
-                    <i class="icon devicon-photoshop-plain"></i>
-                </div>
-                <span class="blur-hidden h5 text-primary">Contact me to find out more!</span>
-              </a>
-            </div> -->
-          </div>
-        </div>
-        <!-- <img src="../img/blob.png" class="path"> -->
-        <img src="../img/path2.png" class="path2">
-        <!-- <img src="../img/triunghiuri.png" class="shapes triangle"> -->
-        <img src="../img/waves.png" class="shapes wave">
-        <img src="../img/patrat.png" class="shapes squares">
-        <img src="../img/cercuri.png" class="shapes circle">
+  <div class="landing-page">
+    <div class="page-header">
+    <!-- ==============GitHub Section ==================== -->
+      <div class="github-background-container">
+        <i class="fab fa-github github-background-index"></i>
       </div>
-    </div>
-      <!-- ============ End of Tech Section ============ -->
-      <!-- ==============GitHub Section ==================== -->
-
-      <!-- <div class="section section-free-demo"> -->
-        <!-- <div class="container"> -->
-          <!-- <div class="col-lg-5 col-md-12"> -->
-            <div class="github-background-container">
-              <i class="fab fa-github"></i>
-            </div>
+    <!-- ==============GitHub Section End ==================== -->
+      <div class="sec-margin-top">
+        <!-- <div class="row justify-content-center"> -->
+          <!-- <div class="col-lg-8 col-md-12 sec-margin-top"> -->
+            <h1 class="text-center">The Tech I Work With</h1>
+            <h4 class="description">
+              I am interested in all areas of software development and allways working on new projects.
+              Contact me to find out what what programming languages im learning now or to know what projects I am working on.
+            </h4>
+            <!-- <div class="btn-wrapper">
+            </div> -->
           <!-- </div> -->
         <!-- </div> -->
-      <!-- </div> -->
+    <!-- ========================== Progress Bars ============================= -->
+        <div class="left-progress">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
 
-      <!-- ==============GitHub Section End ==================== -->
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
 
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
 
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-progress">
+          <div class="progress-container progress-success progress-index-right">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-container progress-success progress-index-right">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-container progress-success progress-index-right">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-container progress-success progress-index-right">
+            <span class="progress-badge">Success</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ========================== Progress Bars End ============================= -->
+      </div>
+    <!-- </div> -->
+    <!-- <img src="../img/blob.png" class="path"> -->
+    <!-- <img src="../img/path2.png" class="path2"> -->
+    <img src="../img/triunghiuri.png" class="shapes triangle">
+    <img src="../img/waves.png" class="shapes wave">
+    <img src="../img/patrat.png" class="shapes squares">
+    <img src="../img/cercuri.png" class="shapes circle">
+    </div>
+  </div>
+      <!-- ============ End of Tech Section ============ -->
 
     <!-- ================ Features Section ===================== -->
   <div class="landing-page">

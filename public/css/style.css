@@ -805,13 +805,13 @@
 
 .progress-index {
   width: 450px !important;
-  left: 10% !important;
+  left: 30% !important;
   /* float: left; */
 }
 
 .progress-index-right {
   width: 450px !important;
-  right: 10% !important;
+  right: 30% !important;
   /* float: right; */
 }
 
@@ -821,4 +821,11 @@
 
 .left-progress {
   float: left;
+}
+
+.github-background-index {
+  font-size: 550px;
+  opacity: 0.02;
+  z-index: -999;
+  position: absolute;
 }
