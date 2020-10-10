@@ -12,14 +12,14 @@
 
   <!-- ============= Background for Homepage ============= -->
   <div class="wrapper">
-    <div class="page-header background-main" style="background-image:url('./img/background-sky.jpg')">
+    <div class="page-header background-main mobile-header x-header" style="background-image:url('./img/background-sky.jpg')">
       <div class="squares square1"></div>
       <div class="squares square2"></div>
       <div class="squares square3"><img class="square3-img" src="../img/pexels-maryia-plashchynskaya-3565894.jpg" alt=""></div>
       <div class="squares square4"></div>
       <div class="squares square5"></div>
       <div class="squares square6"></div>
-      <div class="squares square7"></div>
+      <div class="squares square7 seven-mobile"></div>
       <div class="container">
         <div class="content-center brand">
           <div class="mouse-icon align-mouse"></div>
@@ -28,10 +28,13 @@
             <img src="../img/Group 28.svg" alt="" id="logo-name">
           </object>
           <h1 class="text-white text-white-margin text-main">Designer | Developer</h1>
+          <!-- <div class="content-center brand">
+            <h1 class="h1-seo center-left mobile-size" id="changeText"></h1>
+          </div> -->
           <p class="text-white text-white-margin text-sub-heading sub-index">I design and code beautifully simple things, and I love what I do.</p>
         </div>
       </div>
-      <div class="home-grid grid-index-animate"><img class="grid-index-animate" src="../img/grid.png" alt=""></div>
+      <div class="home-grid grid-index-animate grid"><img class="grid-index-animate grid" src="../img/grid.png" alt=""></div>
       <!-- <img src="../img/triunghiuri.png" class="shapes triangle"> -->
       <!-- <img src="../img/waves.png" class="shapes wave"> -->
       <!-- ==================== Social Media Section =================== -->
@@ -61,18 +64,18 @@
     <!-- ================ End of Background ================= -->
 
     <!-- ================ Tech Section ================== -->
-  <div class="landing-page">
-    <div class="page-header">
+  <div class="landing-page landing-skills">
+    <div class="page-header landing-skills">
     <!-- ==============GitHub Section ==================== -->
       <div class="github-background-container">
         <i class="fab fa-github github-background-index"></i>
       </div>
     <!-- ==============GitHub Section End ==================== -->
-      <div class="sec-margin-top">
+      <div class="sec-margin-top margin-index-top">
         <!-- <div class="row justify-content-center"> -->
           <!-- <div class="col-lg-8 col-md-12 sec-margin-top"> -->
-            <h1 class="text-center">The Tech I Work With</h1>
-            <h4 class="description">
+            <h1 class="text-center">My Skills</h1>
+            <h4 class="description description-tech description-text">
               I am interested in all areas of software development and allways working on new projects.
               Contact me to find out what what programming languages im learning now or to know what projects I am working on.
             </h4>
@@ -81,36 +84,41 @@
           <!-- </div> -->
         <!-- </div> -->
     <!-- ========================== Progress Bars ============================= -->
-        <div class="left-progress">
+        <!-- <div class="progress-index"> -->
+        <div class="center-progress-left">
           <div class="progress-container progress-success progress-index">
-            <span class="progress-badge">Success</span>
+            <span class="progress-badge">HTML &amp; CSS</span>
             <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                <span class="progress-value">85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-progress">
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">JavaScript, AJAX, JQuery, Bootstrap</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                <span class="progress-value">75%</span>
               </div>
             </div>
           </div>
 
-          <div class="progress-container progress-success progress-index">
-            <span class="progress-badge">Success</span>
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">Figma, Photoshop, Adobe Illustrator</span>
             <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span class="progress-value">80%</span>
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="center-progress-left">
           <div class="progress-container progress-success progress-index">
-            <span class="progress-badge">Success</span>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="progress-container progress-success progress-index">
-            <span class="progress-badge">Success</span>
+            <span class="progress-badge">PostgreSQL, Heroku</span>
             <div class="progress">
               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                 <span class="progress-value">60%</span>
@@ -119,39 +127,43 @@
           </div>
         </div>
 
-        <div class="right-progress">
-          <div class="progress-container progress-success progress-index-right">
-            <span class="progress-badge">Success</span>
+        <div class="center-progress-left">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Project Management, Startup Experience</span>
             <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-progress">
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">Version Control With Git</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span class="progress-value">80%</span>
               </div>
             </div>
           </div>
 
-          <div class="progress-container progress-success progress-index-right">
-            <span class="progress-badge">Success</span>
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">Ruby on Rails &amp; Laravel</span>
             <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span class="progress-value">70%</span>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="progress-container progress-success progress-index-right">
-            <span class="progress-badge">Success</span>
+        <div class="center-progress-left">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Ruby, PHP</span>
             <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="progress-container progress-success progress-index-right">
-            <span class="progress-badge">Success</span>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="progress-value">60%</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span class="progress-value">70%</span>
               </div>
             </div>
           </div>
@@ -161,7 +173,7 @@
     <!-- </div> -->
     <!-- <img src="../img/blob.png" class="path"> -->
     <!-- <img src="../img/path2.png" class="path2"> -->
-    <img src="../img/triunghiuri.png" class="shapes triangle">
+    <img src="../img/triunghiuri.png" class="shapes triangle triangle-mobile">
     <img src="../img/waves.png" class="shapes wave">
     <img src="../img/patrat.png" class="shapes squares">
     <img src="../img/cercuri.png" class="shapes circle">
@@ -171,7 +183,7 @@
 
     <!-- ================ Features Section ===================== -->
   <div class="landing-page">
-    <section class="section section-lg">
+    <section class="section section-lg feature-padding section-pad">
       <img src="../img/path4.png" class="path">
       <div class="container">
         <div class="row justify-content-center">
@@ -247,7 +259,7 @@
     <!-- ================ Features Section End ===================== -->
 
   <!-- =========== Work History =========== -->
-    <section class="section section-lg">
+    <section class="section section-lg padding-work-sec sec-padding-bottom">
       <!-- <section class="section"> -->
         <img src="../img/path4.png" class="path">
         <div class="container">
@@ -277,7 +289,7 @@
 
   <!-- ======================= Experience Section ===================== -->
 
-    <section class="section section-lg">
+    <section class="section section-lg padding-experience">
       <section class="section">
         <img src="../img/path4.png" class="path">
         <div class="container">
@@ -309,7 +321,7 @@
 
   <!-- ================ Project Slide ===================== -->
 
-  <div class="team-1">
+  <div class="team-1 slide-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
@@ -486,17 +498,17 @@
 
     <!-- =================== Email Section ==================== -->
     <div class="header header-5">
-      <div class="page-header page-header-sec email-contact-sec">
+      <div class="page-header page-header-sec email-contact-sec index-contact">
         <div class="container">
           <div class="row align-items-center mt-md-5">
             <div class="col-lg-6 col-md-8 ml-auto mr-auto">
               <!-- <div class="logo"> -->
                 <!-- <div class="logo-image"> -->
-                  <img class="logo-cb-margin"src="../img/CodeBlockLogoWhite.png" height="37" width="37">
-                  <h2 class="cb-mail-contact">CodeBlock</h2>
+                  <img class="logo-cb-margin"src="../img/Group 28.svg" height="100" width="100">
+                  <!-- <h2 class="cb-mail-contact">CodeBlock</h2> -->
                 <!-- </div> -->
               <!-- </div> -->
-              <h2 class="title text-left">Lets build something awesome together! Contact me to find out how.</h2>
+              <h2 class="title text-left">Lets build something awesome together! Contact me to find out more.</h2>
 <!-- =================== Display error message if contact form is not filled out completely ================== -->
              <?php if (count($errors) > 0): ?>
               <div class="alert alert-danger alert-with-icon index-alert">
@@ -504,7 +516,7 @@
                   <i class="tim-icons icon-simple-remove"></i>
                 </button>
                 <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
-                <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
+                <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
 <!--================ Show error for each section that is not filled out and end loop ======================== -->
                 <?php foreach ($errors->all() as $error): ?>
                   <span> {{ $error }} </span>

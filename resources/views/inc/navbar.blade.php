@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-translate">
       <a class="navbar-brand" rel="tooltip" title="Modern Web Applications Created by G.M.E" data-placement="bottom" target="_blank">
-        <img href='{!! url('/'); !!}' src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:35px;"> <div class="header-name white">Web Applications</div>
+        <img href='{!! url('/'); !!}' src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:35px;"> <div class="header-name white">Web Portfolio</div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-bar bar1"></span>
@@ -15,8 +15,8 @@
         <div class="row">
           <div class="col-6 collapse-brand">
             <a>
-              <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock Logo" class="" height="20" width="20">
-              CodeBlock
+              <img src="../img/Group 27.svg" alt="CodeBlock Logo" class="" height="25" width="25">
+              Web Portfolio
               <!-- <span>CodeBlock </span> -->
             </a>
           </div>

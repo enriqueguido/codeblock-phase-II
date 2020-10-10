@@ -1,7 +1,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="apple-touch-icon" sizes="30x30" href="../img/Group 17.ico">
-<link rel="icon" type="image/png" sizes="30x30" href="../img/Group 26.png">
+<link rel="icon" type="image/png" sizes="25x250" href="../img/Group 26.png">
 <title>
   GME • Designer • Developer
 </title>

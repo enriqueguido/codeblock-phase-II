@@ -17546,7 +17546,7 @@ textarea.form-control {
 
 .progress-container+.progress-container,
 .progress-container~.progress-container {
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .progress-container .progress-badge {
@@ -20030,26 +20030,27 @@ html {
 }
 
 .landing-page .page-header .squares {
-  top: 50%;
-  right: 18%;
+  top: 55%;
+  right: 5%;
   max-height: 200px;
 }
 
 .landing-page .page-header .wave {
-  top: 45%;
-  right: 30%;
+  top: 38%;
+  right: 33%;
   max-height: 90px;
 }
 
 .landing-page .page-header .circle {
-  top: 20%;
-  right: 10%;
+  top: 12%;
+  right: 12%;
   max-height: 75px;
 }
 
 .landing-page .page-header .triangle {
-  top: 35%;
-  left: 5%;
+  top: 10%;
+  /* left: 5%; */
+  right: 5%;
   max-height: 200px;
 }
 
@@ -20090,9 +20091,9 @@ html {
 
 .landing-page .section:nth-of-type(3) .path {
   right: auto;
-  left: 50px;
-  max-width: 45%;
-  top: 60px;
+  left: -5%;
+  max-width: 55s%;
+  top: 55px;
 }
 
 .landing-page .section:nth-of-type(4) .path {
@@ -20954,7 +20955,7 @@ html {
     max-height: unset;
   }
   .landing-page .page-header h1 {
-    margin-top: 100px;
+    margin-top: 450px;
   }
   .ecommerce-page .card .card-image {
     text-align: center;

@@ -348,10 +348,6 @@
 }
 
 @media screen and (max-width: 414px) {
-  /* .index-page .page-header {
-    height: 105vh;
-  } */
-
   .section-nucleo-icons-mobile {
     --icon-size: 4rem !important;
     --icon-sm-size: 2.75rem !important;
@@ -442,6 +438,10 @@
 
 .description-padding {
   margin-bottom: 5px !important;
+}
+
+.description-text {
+  color: #9A9A9A !important;
 }
 
 .contact-header-vid {
@@ -561,7 +561,7 @@
   display: block;
   left: 19px;
   position: absolute;
-  top: 48%;
+  top: 41%;
   margin-top: -11px;
   /* margin-bottom: 15px; */
 }
@@ -805,22 +805,36 @@
 
 .progress-index {
   width: 450px !important;
-  left: 30% !important;
-  /* float: left; */
+  /* left: 5% !important; */
+  float: left;
+  margin: 20px;
 }
 
-.progress-index-right {
-  width: 450px !important;
-  right: 30% !important;
-  /* float: right; */
+.center-progress {
+  margin-right: 8% !important;
+}
+
+.center-progress-left {
+  margin-left: 7% !important;
 }
 
 .right-progress {
-  float: right;
+  float: right !important;
+  /* right: 5% !important; */
 }
 
-.left-progress {
-  float: left;
+.padding-experience {
+  padding-top: 5% !important;
+}
+
+.feature-padding {
+  padding-top: 55px !important;
+  padding-bottom: 10% !important;
+}
+
+.slide-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 .github-background-index {
@@ -828,4 +842,616 @@
   opacity: 0.02;
   z-index: -999;
   position: absolute;
+  top: 5%;
+  left: -5%;
+}
+
+.description-tech {
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 5%;
+}
+
+.margin-index-top {
+  margin-top: -2% !important;
+}
+
+.section-pad {
+  /* margin-top: 10% !important; */
+}
+
+.hight-sec {
+  min-height: 245vh !important;
+}
+
+/* Iphone 6/7/8 Screens */
+/* @media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) { */
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 667px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+  #logo-name {
+    width: 70% !important;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 0%;
+  }
+
+  .page-header .container {
+    height: 100%;
+    z-index: 1;
+    width: 190%;
+  }
+
+  .page-header .content-center.brand {
+    width: 90%;
+  }
+
+  .page-header .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .text-main {
+    font-size: 1.4rem !important;
+    font-weight: 250 !important;
+  }
+
+  .text-sub-heading {
+    font-size: .8rem;
+  }
+
+  .text-white-margin {
+    margin-top: 20px !important;
+  }
+
+  .page-header .content-center {
+    top: 40%;
+  }
+
+  /* .squares.square3, .login-page .squares.square3, .reset-page .squares.square3 {
+      left: -40%;
+  } */
+
+  .squares.square3 {
+    height: 450px !important;
+    width: 450px !important;
+    bottom: -3% !important;
+    left: -40% !important;
+  }
+
+  .index-page .page-header {
+      max-height: 667px !important;
+  }
+
+  .social-media-index {
+    position: absolute !important;
+    right: 35px !important;
+    /* z-index: 999 !important;
+    top: 38% !important;
+    -webkit-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important; */
+    transform: translateY(-50%) !important;
+    z-index: 999 !important;
+  }
+
+  .index-linkedin {
+    top: 75% !important;
+  }
+
+  .index-github {
+    top: 84% !important;
+  }
+
+  .grid-index-animate {
+    -webkit-animation: mover 3s infinite alternate !important;
+    animation: mover 3s infinite alternate !important;
+    margin-left: -100% !important;
+    /* bottom: -83%; */
+    margin-bottom: -3% !important;
+  }
+
+  /* .home-grid {
+    display: block;
+    margin-left: -20%;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: -50%;
+  } */
+
+  .grid-index-animate {
+    margin-left: -127% !important;
+    margin-bottom: -60% !important;
+  }
+
+  .landing-page .page-header .wave {
+    display: none;
+  }
+
+  .seven-mobile {
+    display: none;
+  }
+
+  .squares.square5 {
+    left: 50% !important;
+    bottom: 35% !important;
+  }
+
+  .mouse-icon {
+    bottom: -425px !important;
+  }
+
+  .landing-skills {
+    min-height: 158vh !important;
+  }
+
+  .landing-page .page-header h1 {
+    margin-top: 50px !important;
+  }
+
+  .landing-page .page-header .circle {
+    display: none !important;
+  }
+
+  .github-background-index {
+    font-size: 250px;
+    opacity: 0.02;
+    z-index: -999;
+    position: absolute;
+    top: 27%;
+    left: -8%;
+  }
+
+  .index-page .index-contact {
+    height: 165vh !important;
+    max-height: 900px !important;
+  }
+
+  .padding-work-sec {
+    padding-bottom: 0px !important;
+  }
+
+  .progress-index {
+    width: 280px !important;
+  }
+
+  .description-tech {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+
+  .landing-page .page-header .triangle {
+    display: none;
+  }
+
+  .landing-page .page-header .squares {
+    display: none;
+  }
+
+  .slide-padding {
+    padding-top: 150px !important;
+  }
+}
+
+/* Iphone 6/7/8 Plus */
+/* @media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) { */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 736px)
+    and (-webkit-device-pixel-ratio : 3) {
+
+  #logo-name {
+    width: 80% !important;
+    display: block;
+    margin-left: 11%;
+    5%: ;
+    */: ;
+    margin-right: auto;
+    margin-top: -45%;
+  }
+
+  .page-header .content-center.brand {
+    width: 85% !important;
+  }
+
+  .text-main {
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+  }
+
+  .seven-mobile {
+    display: none;
+  }
+
+  .squares.square3 {
+    height: 450px !important;
+    width: 450px !important;
+    bottom: -10% !important;
+    left: -27% !important;
+  }
+
+  .mouse-icon {
+    bottom: -445px !important;
+  }
+
+  .index-linkedin {
+    top: 77% !important;
+  }
+
+  .social-media-index {
+    position: absolute !important;
+    right: 50px !important;
+    transform: translateY(-50%) !important;
+    z-index: 999 !important;
+  }
+
+  .index-github {
+    top: 86% !important;
+  }
+
+  .grid-index-animate {
+    margin-left: -85% !important;
+    margin-bottom: -70% !important;
+  }
+
+  .landing-page .page-header .circle {
+    display: none;
+  }
+
+  .landing-page .page-header .squares {
+    display: none;
+  }
+
+  .landing-page .page-header .triangle {
+    display: none;
+  }
+
+  .landing-page .page-header .wave {
+    display: none;
+  }
+
+  .github-background-index {
+    font-size: 291px;
+    opacity: 0.02;
+    z-index: -999;
+    position: absolute;
+    top: 27%;
+    left: -6%;
+  }
+
+  .landing-skills {
+    min-height: 145vh !important;
+  }
+
+  .landing-page .page-header h1 {
+      margin-top: 50px;
+  }
+
+  .description-tech {
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+  }
+
+  .text-center {
+    text-align: center;
+    /* margin-left: -22%; */
+  }
+
+  .progress-index {
+    width: 311px !important;
+    /* left: 5% !important; */
+    float: left;
+    margin: 20px;
+  }
+
+  .index-linkedin {
+    top: 73% !important;
+  }
+
+  .index-github {
+    top: 81% !important;
+  }
+
+  .index-page .mobile-header {
+    max-height: 740px !important;
+  }
+
+  .slide-padding {
+    padding-top: 140px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .text-sub-heading {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+
+  #logo-name {
+      width: 75% !important;
+      display: block;
+      margin-left: 11%;
+      margin-right: auto;
+      margin-top: -25%;
+  }
+
+  .page-header .content-center.brand {
+    width: 90%;
+  }
+
+  .text-main {
+    font-size: 1.4rem;
+    font-weight: 300 !important;
+  }
+
+  /* .index-linkedin {
+    top: 78% !important;
+  } */
+
+  /* .index-github {
+    top: 86% !important;
+  } */
+
+  .mouse-icon {
+    bottom: -455px;
+  }
+
+  /* .grid-index-animate {
+    margin-left: -85%;
+    margin-top: 52%;
+  } */
+
+  .squares.square3 {
+    height: 500px !important;
+    width: 500px !important;
+    bottom: -5% !important;
+    left: -16% !important;
+  }
+
+  .squares.square5 {
+    bottom: 65% !important;
+  }
+
+  .squares.square7 {
+    display: none;
+  }
+
+  .text-sub-heading {
+    font-size: 1.0rem;
+  }
+
+  .index-linkedin {
+    top: 77% !important;
+  }
+
+  .index-github {
+    top: 86% !important;
+  }
+}
+
+/* Iphone 5 */
+@media screen and (device-aspect-ratio: 40/71) {
+  .progress-index {
+      width: 230px !important;
+      /* left: 4% !important; */
+      /* float: left; */
+  }
+
+  .margin-index-top {
+      margin-top: 40% !important;
+  }
+
+  .description-tech {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .triangle-mobile {
+    display: none;
+  }
+
+  .landing-page .page-header .wave {
+    display: none;
+  }
+
+  .landing-page .page-header .squares {
+    display: none;
+  }
+
+  .index-github {
+    top: 74% !important;
+  }
+
+  .index-linkedin {
+    top: 66% !important;
+  }
+
+  .social-media-index {
+    position: absolute !important;
+    right: 35px !important;
+  }
+
+  .text-sub-heading {
+      font-size: .8rem;
+  }
+
+  .page-header .content-center {
+    top: 40%;
+  }
+
+  .index-page .page-header {
+    max-height: 615px;
+  }
+
+  .mouse-icon {
+    bottom: -385px;
+  }
+
+  .index-page .squares.square7 {
+    display: none;
+  }
+
+  .github-background-index {
+    font-size: 240px;
+    top: 25%;
+    left: -5%;
+  }
+
+  .landing-skills {
+    min-height: 190vh !important;
+  }
+
+  .margin-index-top {
+    margin-top: -120% !important;
+  }
+
+  .sec-padding-bottom {
+    margin-bottom: -70px !important;
+  }
+  .text-main {
+    font-size: 1.5rem;
+  }
+
+  .squares.square3 {
+      height: 420px !important;
+      width: 420px !important;
+  }
+
+  .grid-index-animate {
+    margin-left: -85%;
+    margin-top: 33%;
+  }
+
+  .slide-padding {
+    padding-top: 120px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+@media only screen
+  and (device-width : 375px)
+  and (device-height : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
+
+    .index-page .mobile-header {
+    max-height: 700px !important;
+  }
+
+  .index-page .squares.square7 {
+    display: none;
+  }
+
+  .text-main {
+    font-size: 1.4rem;
+    font-weight: 300 !important;
+  }
+
+  .text-sub-heading {
+    font-size: 1.1rem;
+  }
+
+  .index-linkedin {
+    top: 75% !important;
+  }
+
+  .index-github {
+    top: 82% !important;
+  }
+
+  .home-grid {
+    display: block;
+    margin-left: -185%;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: -120%;
+  }
+
+  .landing-page .page-header .squares {
+    display: none;
+  }
+
+  .landing-page .page-header .wave {
+    display: none;
+  }
+
+  .landing-page .page-header .triangle {
+    display: none;
+  }
+
+  .landing-page .page-header .circle {
+    display: none;
+  }
+
+  .github-background-index {
+    font-size: 250px;
+    opacity: 0.02;
+    z-index: -999;
+    position: absolute;
+    top: 30%;
+    left: -5%;
+  }
+
+  .progress-index {
+    width: 278px !important;
+    float: left;
+    margin: 20px;
+  }
+
+  .index-page .page-header {
+    min-height: 100vh;
+  }
+
+  .landing-page .page-header h1 {
+    margin-top: 0px;
+  }
+
+  .page-header .content-center {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    z-index: 2;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .landing-skills {
+    min-height: 140vh !important;
+  }
+
+  .margin-index-top {
+    margin-top: 10% !important;
+  }
+
+  .slide-padding {
+    padding-top: 215px !important;
+    padding-bottom: 0px !important;
+  }
 }
