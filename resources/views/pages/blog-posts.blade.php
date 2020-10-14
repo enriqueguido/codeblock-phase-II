@@ -20,19 +20,30 @@
           <div class="col-md-6 ml-auto mr-auto text-center">
             <h1 class="title">A Place to share my journey as a dveloper &amp; tips &amp; tricks I learned along the way.</h1>
             <!-- <div class="btn-wrapper profile pt-3 pad-wrapper"> -->
-              <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
+              <!-- <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
                 <i class="fab fa-twitter"></i>
               </a>
               <a target="_blank" href="https://www.instagram.com/code_monkey01/" class="btn btn-icon btn-instagram btn-round" data-toggle="tooltip" data-original-title="Follow me on Instagram">
                 <i class="fab fa-instagram"></i>
-              </a>
-              <a target="_blank" href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-linkedin  btn-round" data-toggle="tooltip" data-original-title="Follow me on LinkedIn">
+              </a> -->
+              <!-- <a target="_blank" href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-linkedin  btn-round" data-toggle="tooltip" data-original-title="Follow me on LinkedIn">
                 <i class="fab fa-linkedin"></i>
               </a>
               <a target="_blank" href="https://github.com/enriqueguido" class="btn btn-icon btn-github btn-round" data-toggle="tooltip" data-original-title="Follow me on GitHub">
                 <i class="fab fa-github"></i>
-              </a>
+              </a> -->
+
             <!-- </div> -->
+          </div>
+          <div class="blog-post-social-li">
+            <a id="linkedin" class="btn btn-icon btn-linkedin btn-round linkedin-invert-background btn-index-social" data-toggle="tooltip" data-original-title="Follow me on LinkedIn!">
+              <i class="fab fa-linkedin fa-linkedin-invert"></i>
+            </a>
+          </div>
+          <div class="blog-post-social-gh">
+            <a id="github" class="btn btn-icon btn-github btn-round github-invert-background btn-index-social" data-toggle="tooltip" data-original-title="Check out my projects on GitHub!">
+              <i class="fab fa-github fa-github-invert "></i>
+            </a>
           </div>
         </div>
       </div>
@@ -553,7 +564,7 @@
                         <i class="tim-icons icon-simple-remove"></i>
                       </button>
                       <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
-                      <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
+                      <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
       <!--================ Show error for each section that is not filled out and end loop ======================== -->
                       <?php foreach ($errors->all() as $error): ?>
                         <span> {{ $error }} </span>
@@ -567,7 +578,7 @@
                         <i class="tim-icons icon-simple-remove"></i>
                       </button>
                       <!-- <span data-notify="icon" class="tim-icons icon-bell-55"></span> -->
-                      <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
+                      <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
                       <span> {{ $message }} </span>
                     </div>
                    <?php endif; ?>

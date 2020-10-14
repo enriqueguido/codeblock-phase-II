@@ -129,10 +129,10 @@
 
         <div class="center-progress-left">
           <div class="progress-container progress-success progress-index">
-            <span class="progress-badge">Project Management, Startup Experience</span>
+            <span class="progress-badge">Project Management, User &amp; Usability Testing  </span>
             <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                <span class="progress-value">80%</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                <span class="progress-value">90%</span>
               </div>
             </div>
           </div>
@@ -371,7 +371,7 @@
                     <h1 class="title">WellCare Pediatrics</h1>
                   </div>
                   <div class="col-md-4">
-                    <img class="d-block margin-img-left" src="../img/wellcare-logo-bandaid-background.png" alt="First slide" height="500">
+                    <img class="d-block margin-img-left" src="../img/Group 27.svg" alt="First slide" height="500">
                   </div>
                   <div class="col-md-4">
                     <div class="wrapper">
@@ -593,7 +593,7 @@
                    <i class="tim-icons icon-simple-remove"></i>
                  </button>
                  <!-- <span data-notify="icon" class="tim-icons icon-bell-55"></span> -->
-                 <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
+                 <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
                  <span> {{ $message }} </span>
                </div>
               <?php endif; ?>

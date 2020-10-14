@@ -30,7 +30,21 @@
     </div>
   </div>
 
+
     <!-- ==================== Social Media Section =================== -->
+  <!-- <div class="title text-center">
+    <h3>Follow me on social media</h3>
+  </div>
+
+  <div class="col-md-6 ml-auto mr-auto text-center">
+      <a target="_blank" href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-linkedin  btn-round" data-toggle="tooltip" data-original-title="Follow me on LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a target="_blank" href="https://github.com/enriqueguido" class="btn btn-icon btn-github btn-round" data-toggle="tooltip" data-original-title="Follow me on GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+  </div> -->
+
   <div class="main">
     <div class="title text-center">
       <h3>Follow me on social media</h3>
@@ -38,7 +52,7 @@
     <div class="social-line social-line-big-icons margin-bottom">
       <div class="container">
         <div class="social-media-row">
-          <div class="col-md-2">
+          <!-- <div class="col-md-2">
             <a href="https://twitter.com/maxstang21" class="btn btn-icon btn-simple btn-twitter btn-footer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter">
               <i class="fab fa-twitter"></i>
             </a>
@@ -47,7 +61,7 @@
             <a href="https://www.instagram.com/code_monkey01/" class="btn btn-icon btn-simple btn-instagram btn-gram-color btn-footer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Follow me on Instagram">
               <i class="fab fa-instagram"></i>
             </a>
-          </div>
+          </div> -->
           <div class="col-md-2">
             <a href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-simple btn-linkedin btn-footer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Follow me on LinkedIn">
               <i class="fab fa-linkedin"></i>
@@ -88,7 +102,7 @@
                     <i class="tim-icons icon-simple-remove"></i>
                   </button>
                   <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
-                  <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
+                  <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
   <!--================ Show error for each section that is not filled out and end loop ======================== -->
                   <?php foreach ($errors->all() as $error): ?>
                     <span> {{ $error }} </span>
@@ -102,7 +116,7 @@
                     <i class="tim-icons icon-simple-remove"></i>
                   </button>
                   <!-- <span data-notify="icon" class="tim-icons icon-bell-55"></span> -->
-                  <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
+                  <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon-success">
                   <span> {{ $message }} </span>
                 </div>
                <?php endif; ?>

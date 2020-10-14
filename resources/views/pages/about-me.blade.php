@@ -32,7 +32,7 @@
   <!-- ================== Intro background photo =================== -->
 
   <!-- ================== About me info section =================== -->
-  <div class="page-header page-header-mobile">
+  <div class="page-header page-header-mobile about-me-header">
     <!-- <img src="../img/dots.png" class="dots"> -->
     <img src="../img/path4.png" class="path about-me-path">
     <div class="container align-items-center">
@@ -40,7 +40,7 @@
         <div class="col-lg-6 col-md-6">
           <h1 class="profile-title text-left profile-name-align">Who I am</h1>
           <h5 class="text-on-back">01</h5>
-          <p class="profile-description">I was born in Buenos Aires, Argentina and currently residing in Tamarac, Florida. A tech lover at heart with an analytical mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals. Professional and industry knowledgeable. 
+          <p class="profile-description">I was born in Buenos Aires, Argentina and currently residing in Tamarac, Florida. A tech lover at heart with an analytical mind and an eye for detailed. I am an attentive, compassionate individual, tolerant of many things while supportive of others and their goals. Professional and industry knowledgeable.
             I am dedicated and committed to perfecting my craft, ambitious, driven, and results oriented. I love problem solving and finding fixes with technology.</p>
           <div class="btn-wrapper profile pt-3 pad-wrapper">
             <a target="_blank" href="https://twitter.com/maxstang21" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow me on Twitter">
