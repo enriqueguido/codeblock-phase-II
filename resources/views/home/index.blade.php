@@ -12,101 +12,178 @@
 
   <!-- ============= Background for Homepage ============= -->
   <div class="wrapper">
-    <div class="page-header background-main" style="background-image:url('./img/background-sky.jpg')">
+    <div class="page-header background-main mobile-header x-header" style="background-image:url('')">
       <div class="squares square1"></div>
       <div class="squares square2"></div>
-      <div class="squares square3"></div>
+      <div class="squares square3"><img class="square3-img" src="../img/pexels-maryia-plashchynskaya-3565894.jpg" alt=""></div>
       <div class="squares square4"></div>
       <div class="squares square5"></div>
       <div class="squares square6"></div>
-      <div class="squares square7"></div>
+      <div class="squares square7 seven-mobile"></div>
       <div class="container">
         <div class="content-center brand">
-          <h1 class="h1-seo center-left mobile-size" id="changeText"></h1>
+          <div class="mouse-icon align-mouse"></div>
+          <object type="image/svg+xml" data="../img/Group 28.svg" id="logo-name" alt="">
+            <!-- Fall back img -->
+            <img src="../img/Group 28.svg" alt="" id="logo-name">
+          </object>
+          <h1 class="text-white text-white-margin text-main">Designer | Developer</h1>
+          <!-- <div class="content-center brand">
+            <h1 class="h1-seo center-left mobile-size" id="changeText"></h1>
+          </div> -->
+          <p class="text-white text-white-margin text-sub-heading sub-index">I design and code beautifully simple things, and I love what I do.</p>
         </div>
-        <div class="hero-rocket">
-					<img src="./img/rocket.png" alt="">
-				</div>
       </div>
+      <div class="home-grid grid-index-animate grid"><img class="grid-index-animate grid" src="../img/grid.png" alt=""></div>
+      <!-- <img src="../img/triunghiuri.png" class="shapes triangle"> -->
+      <!-- <img src="../img/waves.png" class="shapes wave"> -->
+      <!-- ==================== Social Media Section =================== -->
+      <div class="social-media-index index-linkedin">
+        <a id="linkedin" class="btn btn-icon btn-linkedin btn-round linkedin-invert-background btn-index-social" data-toggle="tooltip" data-original-title="Follow me on LinkedIn!">
+          <i class="fab fa-linkedin fa-linkedin-invert"></i>
+        </a>
+      </div>
+      <div class="social-media-index index-github">
+        <a id="github" class="btn btn-icon btn-github btn-round github-invert-background btn-index-social" data-toggle="tooltip" data-original-title="Check out my projects on GitHub!">
+          <i class="fab fa-github fa-github-invert "></i>
+        </a>
+      </div>
+      <!-- <div class="social-media-index">
+        <a id="twitter" class="btn btn-icon btn-twitter btn-round twitter-invert-background btn-index-social" data-toggle="tooltip" data-original-title="Follow me on Twitter!">
+          <i class="fab fa-twitter fa-twitter-invert"></i>
+        </a>
+      </div>
+      <div class="social-media-index index-insta">
+        <a id="instagran" class="btn btn-icon btn-instagram btn-round  instagram-invert-background btn-index-social" data-toggle="tooltip" data-original-title="Follow me on Instagram!">
+          <i class="fab fa-instagram fa-instagram-invert"></i>
+        </a>
+      </div> -->
+      <!-- ==================== Social Media Section End =================== -->
     </div>
+  </div>
+    <!-- ================ End of Background ================= -->
 
-    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="page-header background-main" style="background-image:url('./img/background-sky.jpg')">
-            <div class="squares square1"></div>
-            <div class="squares square2"></div>
-            <div class="squares square3"></div>
-            <div class="squares square4"></div>
-            <div class="squares square5"></div>
-            <div class="squares square6"></div>
-            <div class="squares square7"></div>
-            <div class="container">
-              <div class="content-center brand">
-                <h1 class="h1-seo center-left mobile-size" id="changeText"></h1>
+    <!-- ================ Tech Section ================== -->
+  <div class="landing-page landing-skills">
+    <div class="page-header landing-skills landing-mobile">
+    <!-- ==============GitHub Section ==================== -->
+      <div class="github-background-container">
+        <i class="fab fa-github github-background-index"></i>
+      </div>
+    <!-- ==============GitHub Section End ==================== -->
+      <div class="sec-margin-top margin-index-top">
+        <!-- <div class="row justify-content-center"> -->
+          <!-- <div class="col-lg-8 col-md-12 sec-margin-top"> -->
+            <h1 class="text-center">My Skills</h1>
+            <h4 class="description description-tech description-text">
+              I am interested in all areas of software development and allways working on new projects.
+              Contact me to find out what what programming languages im learning now or to know what projects I am working on.
+            </h4>
+            <!-- <div class="btn-wrapper">
+            </div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+    <!-- ========================== Progress Bars ============================= -->
+        <!-- <div class="progress-index"> -->
+        <div class="center-progress-left">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">HTML &amp; CSS</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                <span class="progress-value">85%</span>
               </div>
-              <div class="hero-rocket">
-      					<img src="./img/rocket.png" alt="">
-      				</div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="page-header background-main" data-dark-overlay="6" style="background-image:url('../img/blur-business-coffee-commerce.jpg')" alt="Second slide"></div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <i class="tim-icons icon-minimal-left"></i>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <i class="tim-icons icon-minimal-right"></i>
-      </a>
-    </div> -->
 
-    <!-- ================ End of Background ================= -->
+        <div class="center-progress">
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">JavaScript, AJAX, JQuery, Bootstrap</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                <span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
 
-    <!-- ==================== Social Media Section =================== -->
-
-    <!-- <div class="title text-center">
-      <h3>Follow me on social media</h3>
-    </div> -->
-    <div class="social-line social-line-big-icons margin-bottom">
-      <div class="container">
-        <div class="social-media-row">
-          <div class="col-md-2">
-            <a href="https://twitter.com/maxstang21" class="btn btn-icon btn-simple btn-twitter btn-footer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="https://www.instagram.com/code_monkey01/" class="btn btn-icon btn-simple btn-instagram btn-gram-color btn-footer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Follow me on Instagram">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="https://www.linkedin.com/in/guido-maximiliano-enrique/" class="btn btn-icon btn-simple btn-linkedin btn-footer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Follow me on LinkedIn">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="https://github.com/enriqueguido" class="btn btn-icon btn-simple btn-github btn-github-color btn-footer" target="_blank"data-toggle="tooltip" data-placement="bottom" title="Check out my project on Github">
-              <i class="fab fa-github"></i>
-            </a>
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">Figma, Photoshop, Adobe Illustrator</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span class="progress-value">80%</span>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="center-progress-left">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">PostgreSQL, Heroku</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-progress-left">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Project Management, Startup Experience</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-progress">
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">Version Control With Git</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-container progress-success progress-index right-progress">
+            <span class="progress-badge">Ruby on Rails &amp; Laravel</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span class="progress-value">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-progress-left">
+          <div class="progress-container progress-success progress-index">
+            <span class="progress-badge">Ruby, PHP</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span class="progress-value">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ========================== Progress Bars End ============================= -->
       </div>
+    <!-- </div> -->
+    <!-- <img src="../img/blob.png" class="path"> -->
+    <!-- <img src="../img/path2.png" class="path2"> -->
+    <img src="../img/triunghiuri.png" class="shapes triangle triangle-mobile">
+    <img src="../img/waves.png" class="shapes wave">
+    <img src="../img/patrat.png" class="shapes squares">
+    <img src="../img/cercuri.png" class="shapes circle">
     </div>
-
-    <!-- ==================== Social Media Section End =================== -->
-
+  </div>
+      <!-- ============ End of Tech Section ============ -->
 
     <!-- ================ Features Section ===================== -->
   <div class="landing-page">
-    <section class="section section-lg">
+    <section class="section section-lg feature-padding section-pad">
       <img src="../img/path4.png" class="path">
       <div class="container">
         <div class="row justify-content-center">
@@ -182,7 +259,7 @@
     <!-- ================ Features Section End ===================== -->
 
   <!-- =========== Work History =========== -->
-    <section class="section section-lg">
+    <section class="section section-lg padding-work-sec sec-padding-bottom">
       <!-- <section class="section"> -->
         <img src="../img/path4.png" class="path">
         <div class="container">
@@ -212,7 +289,7 @@
 
   <!-- ======================= Experience Section ===================== -->
 
-    <section class="section section-lg">
+    <section class="section section-lg padding-experience">
       <section class="section">
         <img src="../img/path4.png" class="path">
         <div class="container">
@@ -242,83 +319,15 @@
 
   <!-- ======================= Experience Section End ===================== -->
 
-  <!-- ================ Tech Section ================== -->
-  <div class="landing-page">
-    <div class="page-header">
-      <div class="section-nucleo-icons section-nucleo-icons-mobile">
-        <img src="../img/path3.png" class="path">
-        <div class="sec-margin-top">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 sec-margin-top">
-              <h2 class="title">The Tech I Work With</h2>
-              <h4 class="description">
-                I am interested in all areas of software development and allways working on new projects.
-                Contact me to find out what what programming languages im learning now or to know what projects I am working on.
-              </h4>
-              <div class="btn-wrapper">
-              </div>
-            </div>
-          </div>
-          <div class="blur-hover">
-            <a href='{!! url('pages/contact'); !!}'>
-              <div class="icons-container blur-item on-screen mt-5">
-                  <!-- Center -->
-                  <i class="icon devicon-laravel-plain"></i>
-                  <!-- Right 1 -->
-                  <i class="icon icon-sm devicon-bootstrap-plain"></i>
-                  <i class="icon icon-sm devicon-css3-plain-wordmark"></i>
-                  <i class="icon icon-sm devicon-html5-plain"></i>
-                  <!-- Right 2 -->
-                  <i class="icon devicon-postgresql-plain"></i>
-                  <i class="icon devicon-jquery-plain"></i>
-                  <i class="icon devicon-heroku-original"></i>
-                  <!-- Left 1 -->
-                  <i class="icon icon-sm devicon-ruby-plain"></i>
-                  <i class="icon icon-sm devicon-rails-plain"></i>
-                  <i class="icon icon-sm devicon-git-plain"></i>
-                  <!-- Left 2 -->
-                  <i class="icon devicon-github-plain"></i>
-                  <i class="icon devicon-javascript-plain"></i>
-                  <i class="icon devicon-photoshop-plain"></i>
-              </div>
-              <span class="blur-hidden h5 text-primary">Contact me to find out more!</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- <img src="../img/blob.png" class="path"> -->
-      <img src="../img/path2.png" class="path2">
-      <img src="../img/triunghiuri.png" class="shapes triangle">
-      <img src="../img/waves.png" class="shapes wave">
-      <img src="../img/patrat.png" class="shapes squares">
-      <img src="../img/cercuri.png" class="shapes circle">
-    </div>
-  </div>
-    <!-- ============ End of Tech Section ============ -->
-
-    <!-- ==============GitHub Section ==================== -->
-
-    <!-- <div class="section section-free-demo">
-      <div class="container">
-        <div class="col-lg-5 col-md-12">
-          <div class="github-background-container">
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- ==============GitHub Section End ==================== -->
-
   <!-- ================ Project Slide ===================== -->
 
-  <div class="team-1">
+  <div class="team-1 slide-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
-          <h2 class="title">Projects</h2>
+          <h2 class="title">Projects Portfolio</h2>
           <h4 class="description">These are some of my previous projects.
-            <br>Click on the projects' page to find out more about it!</h4>
+            <br>Click on the projects' links to see more!</h4>
         </div>
       </div>
       <div class="row">
@@ -346,7 +355,8 @@
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/sparkly_laravel_website" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
-                        <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://cryptic-headland-45876.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
                     </div>
@@ -376,6 +386,68 @@
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/WellCare" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://salty-atoll-75507.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h1 class="title">Genome Tech</h1>
+                  </div>
+                  <div class="col-md-4">
+                    <img class="d-block margin-img-left" src="../img/Group 31.png" alt="First slide" height="500">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wrapper">
+                      <div class="category">
+                        <strong>Type:</strong> Full Stack Development
+                        <br> &amp; Design Work.
+                        <br/>
+                        <strong>Framework:</strong> Laravel
+                      </div>
+                      <div class="description">
+                        Genome Technologies is a consulting group that assist physcians via genomics to provide their patients with personilized healthcare with the use of a platform and several proprietary exams. Build on Laravel with PHP &amp; following an MVC architecture, please click the GitHub button to review the code.
+                      </div>
+                      <div class="footer">
+                        <a href="https://github.com/enriqueguido/genometechapp" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://floating-temple-77823.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h1 class="title">iStudy</h1>
+                  </div>
+                  <div class="col-md-4">
+                    <img class="d-block margin-img-left" src="../img/Group 195.png" alt="First slide" height="500">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wrapper">
+                      <div class="category">
+                        <strong>Type:</strong> Design Prototype
+                        <br> &amp; UX Design Work.
+                        <br/>
+                        <strong>Framework:</strong> Figma
+                      </div>
+                      <div class="description">
+                        Part of Udacity UX Design Program I created iLearn. UX research was performed and and Figma was used to create wireframes, high fidelity design mokups, and prototype. iLearn is a mobile application where students can find tutors in their area.
+                      </div>
+                      <div class="footer">
+                        <a href="https://floating-temple-77823.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
@@ -430,7 +502,7 @@
                         <strong>Framework:</strong> Ruby on rails
                       </div>
                       <div class="description">
-                        Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events &amp; connects them to those attending it.
+                        Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events &amp; connects them to those attending it to meet people &amp; make event arrangements. Click the GitHub button to review the code.
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/with_me" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
@@ -489,17 +561,17 @@
 
     <!-- =================== Email Section ==================== -->
     <div class="header header-5">
-      <div class="page-header page-header-sec email-contact-sec">
+      <div class="page-header page-header-sec email-contact-sec index-contact page-header-contact">
         <div class="container">
           <div class="row align-items-center mt-md-5">
             <div class="col-lg-6 col-md-8 ml-auto mr-auto">
               <!-- <div class="logo"> -->
                 <!-- <div class="logo-image"> -->
-                  <img class="logo-cb-margin"src="../img/CodeBlockLogoWhite.png" height="37" width="37">
-                  <h2 class="cb-mail-contact">CodeBlock</h2>
+                  <img class="logo-cb-margin"src="../img/Group 28.svg" height="100" width="100">
+                  <!-- <h2 class="cb-mail-contact">CodeBlock</h2> -->
                 <!-- </div> -->
               <!-- </div> -->
-              <h2 class="title text-left">Lets build something awesome together! Contact me to find out how.</h2>
+              <h2 class="title text-left">Lets build something awesome together! Contact me to find out more.</h2>
 <!-- =================== Display error message if contact form is not filled out completely ================== -->
              <?php if (count($errors) > 0): ?>
               <div class="alert alert-danger alert-with-icon index-alert">
@@ -507,7 +579,7 @@
                   <i class="tim-icons icon-simple-remove"></i>
                 </button>
                 <!-- <span data-notify="icon" class="tim-icons icon-support-17"></span> -->
-                <img src="../img/CodeBlockLogoWhite.png" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
+                <img src="../img/Group 27.svg" alt="CodeBlock White Logo" style="width:30px;height:30px;" class="cb-alert-icon">
 <!--================ Show error for each section that is not filled out and end loop ======================== -->
                 <?php foreach ($errors->all() as $error): ?>
                   <span> {{ $error }} </span>
@@ -567,6 +639,7 @@
 
     <!--   Core JS Files   -->
     @extends('inc.js-footer')
+
 </body>
 
 </html>

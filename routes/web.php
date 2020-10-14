@@ -27,6 +27,3 @@ Route::post('sendemail/send', 'SendEmailController@send');
 Route::get('pages/blog-posts', 'PagesController@blog');
 
 Route::post('subscribe/send', 'SubscribeController@send');
-
-// Redesign Homepage
-Route::get('pages/home', 'PagesController@home');
