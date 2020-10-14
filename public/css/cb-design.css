@@ -18851,9 +18851,9 @@ html {
 }
 
 .carousel-team .carousel-inner .title {
-  text-align: right;
+  text-align: left;
   font-size: 3.8rem;
-  margin: 70px;
+  /* margin: 70px; */
 }
 
 .carousel-team .carousel-inner img {

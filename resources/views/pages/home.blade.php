@@ -65,7 +65,7 @@
 
     <!-- ================ Tech Section ================== -->
   <div class="landing-page landing-skills">
-    <div class="page-header landing-skills">
+    <div class="page-header landing-skills landing-mobile">
     <!-- ==============GitHub Section ==================== -->
       <div class="github-background-container">
         <i class="fab fa-github github-background-index"></i>
@@ -325,9 +325,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
-          <h2 class="title">Projects</h2>
+          <h2 class="title">Projects Portfolio</h2>
           <h4 class="description">These are some of my previous projects.
-            <br>Click on the projects' page to find out more about it!</h4>
+            <br>Click on the projects' links to see more!</h4>
         </div>
       </div>
       <div class="row">
@@ -355,7 +355,8 @@
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/sparkly_laravel_website" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
-                        <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://cryptic-headland-45876.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
                     </div>
@@ -385,6 +386,68 @@
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/WellCare" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://salty-atoll-75507.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h1 class="title">Genome Tech</h1>
+                  </div>
+                  <div class="col-md-4">
+                    <img class="d-block margin-img-left" src="../img/Group 31.png" alt="First slide" height="500">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wrapper">
+                      <div class="category">
+                        <strong>Type:</strong> Full Stack Development
+                        <br> &amp; Design Work.
+                        <br/>
+                        <strong>Framework:</strong> Laravel
+                      </div>
+                      <div class="description">
+                        Genome Technologies is a consulting group that assist physcians via genomics to provide their patients with personilized healthcare with the use of a platform and several proprietary exams. Build on Laravel with PHP &amp; following an MVC architecture, please click the GitHub button to review the code.
+                      </div>
+                      <div class="footer">
+                        <a href="https://github.com/enriqueguido/genometechapp" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
+                        <a href="https://floating-temple-77823.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
+                        <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h1 class="title">iStudy</h1>
+                  </div>
+                  <div class="col-md-4">
+                    <img class="d-block margin-img-left" src="../img/Group 195.png" alt="First slide" height="500">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wrapper">
+                      <div class="category">
+                        <strong>Type:</strong> Design Prototype
+                        <br> &amp; UX Design Work.
+                        <br/>
+                        <strong>Framework:</strong> Figma
+                      </div>
+                      <div class="description">
+                        Part of Udacity UX Design Program I created iLearn. UX research was performed and and Figma was used to create wireframes, high fidelity design mokups, and prototype. iLearn is a mobile application where students can find tutors in their area.
+                      </div>
+                      <div class="footer">
+                        <a href="https://floating-temple-77823.herokuapp.com/" target="_blank" class="btn btn-icon btn-round"><i class="fa tim-icons icon-link-72"></i></a>
                         <!-- <a href="javascript:;" class="btn btn-icon btn-facebook btn-round"><i class="fab fa-facebook-square"></i></a> -->
                         <!-- <a href="javascript:;" class="btn btn-icon btn-dribbble btn-round"><i class="fab fa-dribbble"></i></a> -->
                       </div>
@@ -439,7 +502,7 @@
                         <strong>Framework:</strong> Ruby on rails
                       </div>
                       <div class="description">
-                        Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events &amp; connects them to those attending it.
+                        Utilizing Eventbride API GoWithMe is a social platform that allows its users to find events &amp; connects them to those attending it to meet people &amp; make event arrangements. Click the GitHub button to review the code.
                       </div>
                       <div class="footer">
                         <a href="https://github.com/enriqueguido/with_me" target="_blank" class="btn btn-icon btn-github btn-round"><i class="fab fa-github"></i></a>
@@ -498,7 +561,7 @@
 
     <!-- =================== Email Section ==================== -->
     <div class="header header-5">
-      <div class="page-header page-header-sec email-contact-sec index-contact">
+      <div class="page-header page-header-sec email-contact-sec index-contact page-header-contact">
         <div class="container">
           <div class="row align-items-center mt-md-5">
             <div class="col-lg-6 col-md-8 ml-auto mr-auto">
